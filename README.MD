@@ -4,6 +4,10 @@
 
 This project builds a **feedforward neural network** from scratch to classify images from the Fashion-MNIST dataset. The model is trained using **gradient descent** and **backpropagation**, with **Weights & Biases (WandB)**,a tool used for tracking experiments and visualizing results.
 
+
+**Assignment 1**: Feedforward Neural Network (Backpropagation from scratch)  
+  [Assignment Link](https://wandb.ai/sivasankar1234/DA6401/reports/DA6401-Assignment-1--VmlldzoxMTQ2NDQwNw)  
+
 ## **Setup**  
    **Clone the repository:**  
    ```bash
