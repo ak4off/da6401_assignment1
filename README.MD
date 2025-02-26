@@ -13,3 +13,10 @@ This project builds a **feedforward neural network** from scratch to classify im
    ```bash
    git clone https://github.com/ak4off/da6401_assignment1.git
    cd da6401_assignment1
+
+   **Requirements**
+   ```bash
+   pip install wandb
+   pip install numpy
+   pip install tensorflow 
+note : tensorflow installation is to download the dataset from keras
