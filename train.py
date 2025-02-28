@@ -2,13 +2,13 @@ import wandb
 import argparse
 import numpy as np
 from keras.datasets import fashion_mnist, mnist
+from neural_network import NeuralNetwork  
 
 def main(args):
     if args.use_wandb.lower() == "true":
         wandb.init(project=args.wandb_project, entity=args.wandb_entity, config=vars(args))
         wandb.run.name = f"ac_{args.activation}_hl_{args.num_layers}_hs_{args.hidden_size}_bs_{args.batch_size}_op_{args.optimizer}_ep_{args.epochs}"
 
-    # loading dataset - minst or fashion-minst
     if args.dataset == "fashion_mnist":
         (train_img, train_labe), (test_img, test_labe) = fashion_mnist.load_data()
         the_labels = ["t-shirt", "trouser","pullover","dress","coat","sandal","shirt","sneaker","bag","ankleboot"]
@@ -34,10 +34,39 @@ def main(args):
     print(f"Valid set: {val_img.shape}, {val_labe.shape}")
     print(f"Test set: {test_img.shape}, {test_labe.shape}")
 
+    # our neural netowrk
+    nn = NeuralNetwork(
+        in_dim=784,
+        out_dim=10,
+        num_layers=args.num_layers,
+        hidden_size=args.hidden_size,
+        activation=args.activation,
+        loss=args.loss,
+        optimizer=args.optimizer,
+        learning_rate=args.learning_rate,
+        momentum=args.momentum,
+        beta=args.beta,
+        beta1=args.beta1,
+        beta2=args.beta2,
+        epsilon=args.epsilon,
+        weight_decay=args.weight_decay,
+        weight_init=args.weight_init,
+        epochs=args.epochs,
+        batch_size=args.batch_size,
+        use_wandb=args.use_wandb.lower() == "true",
+    )
+
+    nn.run(train_img, train_labe, val_img, val_labe)
+
+    ypred = nn.test(test_img, test_labe)
+
+    if args.use_wandb.lower() == "true":
+        wandb.log({"confusion_matrix": wandb.plot.confusion_matrix(probs=None, y_true=test_labe, preds=ypred, class_names=the_labels)})
+        wandb.finish()
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="let's train a feedforward neural network")
+    parser = argparse.ArgumentParser(description="Train a feedforward neural network")
 
     parser.add_argument("--use_wandb", type=str, default="false", help="Use Weights & Biases logging")
     parser.add_argument("--wandb_project", type=str, default="da6401_projectAss1", help="WandB project name")
