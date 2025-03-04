@@ -8,6 +8,8 @@ This project builds a **feedforward neural network** from scratch to classify im
 **Assignment 1**: Feedforward Neural Network (Backpropagation from scratch)  
   [Assignment Link](https://wandb.ai/sivasankar1234/DA6401/reports/DA6401-Assignment-1--VmlldzoxMTQ2NDQwNw)  
 
+  [Image of question1 ] ([Image of question1 ](https://wandb.ai/ns24z274-iitm-ac-in/ns24z274_da6401_assignment1/runs/fky99vq0?nw=nwuserns24z274))
+
 ## **Setup**  
    **Clone the repository:**  
    ```bash
@@ -20,3 +22,5 @@ This project builds a **feedforward neural network** from scratch to classify im
    pip install numpy
    pip install tensorflow 
 note : tensorflow installation is to download the dataset from keras
+
+
