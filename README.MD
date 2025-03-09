@@ -7,7 +7,7 @@ This project builds a **feedforward neural network** from scratch to classify im
 ### **Assignment 1**: Feedforward Neural Network (Backpropagation from scratch)  
 - [Assignment Link](https://wandb.ai/sivasankar1234/DA6401/reports/DA6401-Assignment-1--VmlldzoxMTQ2NDQwNw)  
 - [Report Link] ()
-- ![Image of question1](https://wandb.ai/ns24z274-iitm-ac-in/ns24z274_da6401_assignment1/runs/fky99vq0?nw=nwuserns24z274)
+- [Image of question1](https://wandb.ai/ns24z274-iitm-ac-in/ns24z274_da6401_assignment1/runs/fky99vq0?nw=nwuserns24z274)
 
 ## **Setup**
 
@@ -46,18 +46,18 @@ pip install tensorflow  # Required for dataset download
 
 ### **Example Commands**
 ```bash
-python main.py --dataset fashion_mnist --epochs 10 --batch_size 32 --optimizer adam --learning_rate 0.001
+python train.py --dataset fashion_mnist --epochs 10 --batch_size 32 --optimizer adam --learning_rate 0.001
 ```
 
 ## **Running the Model**
 To train the feedforward neural network:
 ```bash
-python main.py --dataset fashion_mnist --epochs 10 --batch_size 64 --optimizer adam
+python train.py --dataset fashion_mnist --epochs 10 --batch_size 64 --optimizer adam
 ```
 
 To enable WandB logging:
 ```bash
-python main.py --use_wandb true --wandb_project my_project --wandb_entity my_username
+python train.py --use_wandb true --wandb_project my_project --wandb_entity my_username
 ```
 
 ## **Configuration & WandB Sweep**
@@ -71,7 +71,7 @@ The hyperparameter tuning is done using **WandB Sweeps**, which optimizes multip
 To run the WandB sweep:
 ```bash
 wandb login
-python main.py --use_wandb true
+python train.py --use_wandb true
 ```
 
 ## **Dataset Handling**
