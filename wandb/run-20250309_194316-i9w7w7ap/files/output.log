@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/train.py", line 51, in wandb_sweep
+    nn.run(train_img, train_labe, val_img, val_labe)
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/neural_network.py", line 202, in run
+    val_cross_entropy_loss, val_squared_error_loss, val_accuracy = self.evaluate(val_img, val_labe)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/neural_network.py", line 71, in evaluate
+    squared_error_loss = Losses.get('mean_squared_error')(y_tru_one_hot, y_pred)
+                                                          ^^^^^^^^^^^^^
+NameError: name 'y_tru_one_hot' is not defined. Did you mean: 'y_one_hot'?

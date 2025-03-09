@@ -56,22 +56,40 @@ def wandb_sweep(args, train_img, train_labe, val_img, val_labe):
 def main(args):
 
     sweep_config = {
-        'method': 'bayes',  # Bayesian optimization for better hyperparameter search
-        'name': 'sweep cross entropy',
+        'method': 'bayes',  
+        'name': 'sweep_loss_comparison',
         'metric': {'name': 'avg_valid_acc', 'goal': 'maximize'},
         'parameters': {
-            'epochs': {'values': [3, 5, 10, 15]},  # Add 3 epochs to the list
+            'epochs': {'values': [5, 10,15, 100]},  
             'num_layers': {'values': [3, 4, 5]},
-            'learning_rate': {'values': [1e-2, 1e-3, 1e-4]},  # Include 0.01 (1e-2)
-            'hidden_size': {'values': [128, 32, 64, 256]},  # Ensure 128 is included
-            'weight_decay': {'values': [0, 0.0005, 0.005, 0.5]},
+            'learning_rate': {'values': [1e-2, 1e-3, 1e-4]}, 
+            'hidden_size': {'values': [32, 64, 128]},
+            'weight_decay': {'values': [0, 0.0005, 0.5]},
             'batch_size': {'values': [16, 32, 64, 128, 256]},
             'optimizer': {'values': ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam']},
-            'weight_init': {'values': ['xavier', 'random']},  # Ensure Xavier is included
+            'weight_init': {'values': ['xavier', 'random']}, 
             'activation': {'values': ['sigmoid', 'tanh', 'relu']},
-            'loss': {'values': ['cross_entropy']}
+            'loss': {'values': ['cross_entropy', 'mean_squared_error']}  # Add squared error loss
         }
     }
+
+    # sweep_config = {
+    #     'method': 'bayes',  # Bayesian optimization for better hyperparameter search
+    #     'name': 'sweep cross entropy',
+    #     'metric': {'name': 'avg_valid_acc', 'goal': 'maximize'},
+    #     'parameters': {
+    #         'epochs': {'values': [5, 10, 15, 100]},  # Add 3 epochs to the list
+    #         'num_layers': {'values': [3, 4, 5]},
+    #         'learning_rate': {'values': [1e-2, 1e-3, 1e-4]},  # Include 0.01 (1e-2)
+    #         'hidden_size': {'values': [128, 32, 64, 256]},  # Ensure 128 is included
+    #         'weight_decay': {'values': [0, 0.0005, 0.005, 0.5]},
+    #         'batch_size': {'values': [16, 32, 64, 128, 256]},
+    #         'optimizer': {'values': ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam']},
+    #         'weight_init': {'values': ['xavier', 'random']},  # Ensure Xavier is included
+    #         'activation': {'values': ['sigmoid', 'tanh', 'relu']},
+    #         'loss': {'values': ['cross_entropy']}
+    #     }
+    # }
 
     # Load dataset
     if args.dataset == "fashion_mnist":

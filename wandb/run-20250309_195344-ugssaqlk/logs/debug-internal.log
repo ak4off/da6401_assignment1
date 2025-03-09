@@ -1,0 +1,16 @@
+{"time":"2025-03-09T19:53:44.416383503+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/as111/dk/2loss/wandb/run-20250309_195344-ugssaqlk/logs/debug-core.log"}
+{"time":"2025-03-09T19:53:44.631775334+05:30","level":"INFO","msg":"created new stream","id":"ugssaqlk"}
+{"time":"2025-03-09T19:53:44.631817594+05:30","level":"INFO","msg":"stream: started","id":"ugssaqlk"}
+{"time":"2025-03-09T19:53:44.631868294+05:30","level":"INFO","msg":"sender: started","stream_id":"ugssaqlk"}
+{"time":"2025-03-09T19:53:44.631856324+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ugssaqlk"}
+{"time":"2025-03-09T19:53:44.631934943+05:30","level":"INFO","msg":"handler: started","stream_id":"ugssaqlk"}
+{"time":"2025-03-09T19:53:45.122581159+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T19:54:25.710618516+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T19:54:25.711535798+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T19:54:26.713058357+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ugssaqlk-LossComparison_table","runtime_seconds":1.007200041},{"desc":"uploading config.yaml","runtime_seconds":0.400188672,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-03-09T19:54:29.321258272+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T19:54:29.636600918+05:30","level":"INFO","msg":"stream: closing","id":"ugssaqlk"}
+{"time":"2025-03-09T19:54:29.636621178+05:30","level":"INFO","msg":"handler: closed","stream_id":"ugssaqlk"}
+{"time":"2025-03-09T19:54:29.636640388+05:30","level":"INFO","msg":"sender: closed","stream_id":"ugssaqlk"}
+{"time":"2025-03-09T19:54:29.636634608+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ugssaqlk"}
+{"time":"2025-03-09T19:54:29.636698397+05:30","level":"INFO","msg":"stream: closed","id":"ugssaqlk"}

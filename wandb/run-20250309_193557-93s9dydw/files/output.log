@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/train.py", line 51, in wandb_sweep
+    nn.run(train_img, train_labe, val_img, val_labe)
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/neural_network.py", line 195, in run
+    train_cross_entropy_loss += cross_entropy_loss
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'train_cross_entropy_loss' where it is not associated with a value

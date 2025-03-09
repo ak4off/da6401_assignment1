@@ -1,0 +1,30 @@
+{
+  "os": "Linux-6.8.0-50-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-03-09T14:01:47.087792Z",
+  "args": [
+    "--epochs",
+    "10",
+    "--weight_init",
+    "Xavier",
+    "--learning_rate",
+    "0.01",
+    "--num_layers",
+    "3",
+    "--hidden_size",
+    "128",
+    "--use_wandb",
+    "true",
+    "--wandb_project",
+    "ns24z274_da6401_assignment1",
+    "--wandb_entity",
+    "ns24z274-iitm-ac-in"
+  ],
+  "program": "/speech/akshaya/zDA6401/as111/dk/2loss/train.py",
+  "codePath": "train.py",
+  "email": "ns24z274@smail.iitm.ac.in",
+  "root": "/speech/akshaya/zDA6401/as111/dk/2loss",
+  "host": "gpu17",
+  "executable": "/speech/akshaya/anaconda3/envs/dl1/bin/python3",
+  "codePathLocal": "train.py"
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/train.py", line 51, in wandb_sweep
+    nn.run(train_img, train_labe, val_img, val_labe)
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/neural_network.py", line 193, in run
+    cross_entropy_loss, squared_error_loss, _ = self.train_batch(x_batch, y_batch)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/neural_network.py", line 125, in train_batch
+    squared_error_loss = Losses.get('squared_error')(y_tru_one_hot, y_pred)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/the_losses.py", line 15, in get
+    return getattr(Losses, name)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Losses' has no attribute 'squared_error'. Did you mean: 'mean_squared_error'?

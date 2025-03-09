@@ -1,0 +1,1 @@
+{"_runtime":0.621272069,"learning_rate":0.001,"weight_decay":0.5,"_timestamp":1.7415295863164003e+09,"optimizer":"nag","hidden_layer_size":32,"_wandb":{"runtime":1},"activation":"relu","_step":0,"num_layers":4}

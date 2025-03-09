@@ -6,6 +6,7 @@ from the_optimizer import Optimizer
 from the_data import one_hot_encode
 from wandb_logger import WandbLogger
 from calcc import accuracy
+import wandb
 
 class NeuralNetwork:
     def __init__(self, **kwargs):
@@ -50,18 +51,30 @@ class NeuralNetwork:
             # random weight initialization (default)
             return np.random.randn(in_size, out_size) * 0.01
 
-    def evaluate(self, x, y):
+    # def evaluate(self, x, y):
+    #     _, y_pred = self.forward(x)
+    #     y_one_hot = one_hot_encode(y, num_classes=10)
+
+    #     #  loss using the given loss function
+    #     loss = self.loss_fn(y_one_hot, y_pred)
+
+    #     #  accuracy
+    #     predicted_labels = np.argmax(y_pred, axis=1)
+    #     accuracy = np.sum(predicted_labels == y) / len(y)
+
+    #     return loss, accuracy
+
+    def evaluate(self, x, y_true):
+        # y_pred = self.forward(x)[1]  # Get predictions
         _, y_pred = self.forward(x)
-        y_one_hot = one_hot_encode(y, num_classes=10)
-
-        #  loss using the given loss function
-        loss = self.loss_fn(y_one_hot, y_pred)
-
-        #  accuracy
-        predicted_labels = np.argmax(y_pred, axis=1)
-        accuracy = np.sum(predicted_labels == y) / len(y)
-
-        return loss, accuracy
+        y_one_hot = one_hot_encode(y_true, num_classes=10)  # Ensure labels are in one-hot form
+        
+        cross_entropy_loss = Losses.get('cross_entropy')(y_one_hot, y_pred)
+        squared_error_loss = Losses.get('mean_squared_error')(y_one_hot, y_pred)  # FIXED
+        
+        accuracy = np.mean(np.argmax(y_pred, axis=1) == y_true)
+        
+        return cross_entropy_loss, squared_error_loss, accuracy
 
 
     def forward(self, x):
@@ -97,28 +110,59 @@ class NeuralNetwork:
 
         # return grads
 
+    # def train_batch(self, x, y_tru):
+    #     activations, y_pred = self.forward(x)
+    #     grads = self.backward(activations, y_tru, y_pred)
+    #     self.optimizer.update(grads)
+    #     return self.loss_fn(y_tru, y_pred), y_pred
+
     def train_batch(self, x, y_tru):
         activations, y_pred = self.forward(x)
-        grads = self.backward(activations, y_tru, y_pred)
+        y_tru_one_hot = one_hot_encode(y_tru, num_classes=10)
+
+        # Compute both loss functions
+        cross_entropy_loss = Losses.get('cross_entropy')(y_tru_one_hot, y_pred)
+        squared_error_loss = Losses.get('mean_squared_error')(y_tru_one_hot, y_pred)
+
+        grads = self.backward(activations, y_tru_one_hot, y_pred)
         self.optimizer.update(grads)
-        return self.loss_fn(y_tru, y_pred), y_pred
+        
+        return cross_entropy_loss, squared_error_loss, y_pred
 
     #   training
     def run(self, train_img, train_labe, val_img, val_labe):
+        train_cross_entropy_loss = 0.0  
+        train_squared_error_loss = 0.0  
+
+        if self.config.use_wandb:
+            self.logger.log({
+                "hidden_layer_size": self.config.hidden_size,
+                "num_layers": self.config.num_layers,
+                "activation": self.config.activation,
+                "learning_rate": self.config.learning_rate,
+                "optimizer": self.config.optimizer,
+                "weight_decay": self.config.weight_decay,
+            })
+            
         num_samples = train_img.shape[0]
         num_batches = num_samples // self.config.batch_size
-        
+
         val_accuracies = []
-        train_accuracies = []  # Collect training accuracy per epoch
+        train_accuracies = []
         train_losses = []
-        val_losses = [] # Collect validation loss per epoch 
+        val_losses = []
+        
+        train_cross_entropy_losses = []
+        train_squared_error_losses = []
+        val_cross_entropy_losses = []
+        val_squared_error_losses = []
         
         for epoch in range(self.config.epochs):
             train_loss = 0.0
             correct_train = 0
             total_train = 0
 
-            # shuffle training data at the start of every epoch
+            # Shuffle training data
             indices = np.arange(num_samples)
             np.random.shuffle(indices)
             train_img = train_img[indices]
@@ -131,74 +175,74 @@ class NeuralNetwork:
                 x_batch = train_img[batch_start:batch_end]
                 y_batch = train_labe[batch_start:batch_end]
 
-                # one-hot rep
+                # Forward and Backpropagation
+                cross_entropy_loss, squared_error_loss, y_pred = self.train_batch(x_batch, y_batch)
+
+                train_cross_entropy_loss += cross_entropy_loss
+                train_squared_error_loss += squared_error_loss
+
+                # Compute activations for backward pass
+                activations, _ = self.forward(x_batch)
                 y_batch_one_hot = one_hot_encode(y_batch, num_classes=10)
-
-                # forward pass
-                activations, y_pred = self.forward(x_batch)
-
-                # loss 
-                loss = self.loss_fn(y_batch_one_hot, y_pred)
-                train_loss += loss
-
-                # backprop and weight update
                 grads = self.backward(activations, y_batch_one_hot, y_pred)
                 self.optimizer.update(grads)
 
-                # training accuracy
+                # Training accuracy
                 predicted_labels = np.argmax(y_pred, axis=1)
                 correct_train += np.sum(predicted_labels == y_batch)
                 total_train += len(y_batch)
 
-            # training loss
+                train_loss += cross_entropy_loss  # Accumulate loss over batches
+
+            # Normalize training loss
             train_loss /= num_batches
             train_accuracy = correct_train / total_train
 
-            # validation loss & accuracy
-            val_loss, val_accuracy = self.evaluate(val_img, val_labe)
+            # Validation loss & accuracy
+            val_cross_entropy_loss, val_squared_error_loss, val_accuracy = self.evaluate(val_img, val_labe)
+
+            # Store validation & training losses
+            train_cross_entropy_losses.append(train_cross_entropy_loss / num_batches)
+            train_squared_error_losses.append(train_squared_error_loss / num_batches)
+            val_cross_entropy_losses.append(val_cross_entropy_loss)
+            val_squared_error_losses.append(val_squared_error_loss)
 
             val_accuracies.append(val_accuracy)
-            train_accuracies.append(train_accuracy)  # Collect training accuracy per epoch
-            train_losses.append(train_loss)  # Collect training loss per epoch
-            val_losses.append(val_loss)  # Collect validation loss per epoch val_losses.append(val_loss)        
+            train_accuracies.append(train_accuracy)
+            val_loss = (val_cross_entropy_loss + val_squared_error_loss) / 2
+            val_losses.append(val_loss)
 
-
-            
             print(f"Epoch [{epoch+1}/{self.config.epochs}]")
             print(f"    Train Loss: {train_loss:.4f}, Train Accuracy: {train_accuracy:.4f}")
             print(f"    Val Loss: {val_loss:.4f}, Val Accuracy: {val_accuracy:.4f}")
 
-            
-            # results to wandb
             if self.config.use_wandb:
                 self.logger.log({
                     "epoch": epoch + 1,
-                    "train_loss": train_loss,
+                    "train_cross_entropy_loss": train_cross_entropy_loss / num_batches,
+                    "train_squared_error_loss": train_squared_error_loss / num_batches,
+                    "val_cross_entropy_loss": val_cross_entropy_loss,
+                    "val_squared_error_loss": val_squared_error_loss,
                     "train_accuracy": train_accuracy,
-                    "val_loss": val_loss,
                     "val_accuracy": val_accuracy
                 })
 
-    # def run(self, X_train, y_train, X_val, y_val):
-    #     y_train = one_hot_encode(y_train)
-    #     y_val = one_hot_encode(y_val)
-
-    #     for epoch in range(self.config.epochs):
-    #         losses = []
-    #         for i in range(0, len(X_train), self.config.batch_size):
-    #             x_batch = X_train[i:i+self.config.batch_size]
-    #             y_batch = y_train[i:i+self.config.batch_size]
-    #             loss, _ = self.train_batch(x_batch, y_batch)
-    #             losses.append(loss)
-
-    #         self.logger.log({"epoch": epoch, "loss": np.mean(losses)})
-
-
-    #   testing the network
-    # def test(self, X, y):
-    #     _, y_pred = self.forward(X) 
-    #     return np.argmax(y_pred, axis=1)        #   class with highest prob
-
+                # Log loss comparison plot
+                wandb.log({
+                    "Loss Comparison": wandb.plot.line_series(
+                        xs=list(range(1, epoch+2)),
+                        ys=[
+                            train_cross_entropy_losses,
+                            train_squared_error_losses,
+                            val_cross_entropy_losses,
+                            val_squared_error_losses
+                        ],
+                        keys=["Train CE Loss", "Train SE Loss", "Val CE Loss", "Val SE Loss"],
+                        title="Cross-Entropy vs. Squared Error Loss",
+                        xname="Epoch"
+                    )
+                })
+ 
     def test(self, X, y):
         _, y_pred = self.forward(X)
         y_pred_one_hot = Activations.softmax(y_pred)  # Ensure predictions are probabilities

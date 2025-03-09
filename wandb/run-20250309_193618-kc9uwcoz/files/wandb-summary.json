@@ -1,0 +1,1 @@
+{"hidden_layer_size":128,"_runtime":0.62037053,"weight_decay":0,"_timestamp":1.7415291795000994e+09,"activation":"sigmoid","learning_rate":0.001,"_wandb":{"runtime":0},"num_layers":3,"optimizer":"sgd","_step":0}

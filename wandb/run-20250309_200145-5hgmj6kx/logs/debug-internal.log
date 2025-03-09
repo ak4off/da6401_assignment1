@@ -1,0 +1,16 @@
+{"time":"2025-03-09T20:01:45.363328673+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/as111/dk/2loss/wandb/run-20250309_200145-5hgmj6kx/logs/debug-core.log"}
+{"time":"2025-03-09T20:01:45.67843742+05:30","level":"INFO","msg":"created new stream","id":"5hgmj6kx"}
+{"time":"2025-03-09T20:01:45.678504069+05:30","level":"INFO","msg":"stream: started","id":"5hgmj6kx"}
+{"time":"2025-03-09T20:01:45.678526109+05:30","level":"INFO","msg":"sender: started","stream_id":"5hgmj6kx"}
+{"time":"2025-03-09T20:01:45.678521859+05:30","level":"INFO","msg":"handler: started","stream_id":"5hgmj6kx"}
+{"time":"2025-03-09T20:01:45.678534659+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5hgmj6kx"}
+{"time":"2025-03-09T20:01:45.980724196+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T20:18:54.274194824+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T20:18:54.274802827+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T20:18:55.276201947+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-5hgmj6kx-LossComparison_table","runtime_seconds":1.008994812},{"desc":"uploading config.yaml","runtime_seconds":0.413316383,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-03-09T20:18:56.971276913+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T20:18:57.282955873+05:30","level":"INFO","msg":"stream: closing","id":"5hgmj6kx"}
+{"time":"2025-03-09T20:18:57.282981212+05:30","level":"INFO","msg":"handler: closed","stream_id":"5hgmj6kx"}
+{"time":"2025-03-09T20:18:57.282993562+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"5hgmj6kx"}
+{"time":"2025-03-09T20:18:57.283010182+05:30","level":"INFO","msg":"sender: closed","stream_id":"5hgmj6kx"}
+{"time":"2025-03-09T20:18:57.283080541+05:30","level":"INFO","msg":"stream: closed","id":"5hgmj6kx"}

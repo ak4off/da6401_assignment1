@@ -1,0 +1,10 @@
+Epoch [1/5]
+    Train Loss: 2.3027, Train Accuracy: 0.0985
+    Val Loss: 1.1963, Val Accuracy: 0.0975
+Traceback (most recent call last):
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/train.py", line 51, in wandb_sweep
+    nn.run(train_img, train_labe, val_img, val_labe)
+  File "/speech/akshaya/zDA6401/as111/dk/2loss/neural_network.py", line 230, in run
+    wandb.log({
+    ^^^^^
+NameError: name 'wandb' is not defined

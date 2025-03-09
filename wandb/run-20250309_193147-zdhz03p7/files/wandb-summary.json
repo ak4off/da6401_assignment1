@@ -1,0 +1,1 @@
+{"optimizer":"momentum","num_layers":4,"_wandb":{"runtime":0},"weight_decay":0.5,"learning_rate":0.001,"hidden_layer_size":128,"_runtime":0.641359786,"_step":0,"_timestamp":1.7415289076926403e+09,"activation":"relu"}

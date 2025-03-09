@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":0},"num_layers":4,"learning_rate":0.001,"_timestamp":1.741529168402439e+09,"hidden_layer_size":32,"_runtime":0.615606795,"weight_decay":0.0005,"optimizer":"rmsprop","activation":"tanh","_step":0}

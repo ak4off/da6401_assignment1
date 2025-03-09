@@ -1,0 +1,15 @@
+Epoch [1/5]
+    Train Loss: 2.3072, Train Accuracy: 0.1001
+    Val Loss: 1.1977, Val Accuracy: 0.1002
+Epoch [2/5]
+    Train Loss: 2.3074, Train Accuracy: 0.0991
+    Val Loss: 1.1980, Val Accuracy: 0.0953
+Epoch [3/5]
+    Train Loss: 2.3074, Train Accuracy: 0.0976
+    Val Loss: 1.1993, Val Accuracy: 0.0953
+Epoch [4/5]
+    Train Loss: 2.3073, Train Accuracy: 0.1006
+    Val Loss: 1.1987, Val Accuracy: 0.1017
+Epoch [5/5]
+    Train Loss: 2.3072, Train Accuracy: 0.0998
+    Val Loss: 1.1982, Val Accuracy: 0.1005
