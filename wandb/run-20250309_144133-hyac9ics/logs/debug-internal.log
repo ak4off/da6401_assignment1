@@ -1,0 +1,16 @@
+{"time":"2025-03-09T14:41:33.816444587+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/akshaya/zDA6401/as111/dk/try1sweepX/wandb/run-20250309_144133-hyac9ics/logs/debug-core.log"}
+{"time":"2025-03-09T14:41:34.030633295+05:30","level":"INFO","msg":"created new stream","id":"hyac9ics"}
+{"time":"2025-03-09T14:41:34.030667745+05:30","level":"INFO","msg":"stream: started","id":"hyac9ics"}
+{"time":"2025-03-09T14:41:34.030689805+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:41:34.030716815+05:30","level":"INFO","msg":"sender: started","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:41:34.030708515+05:30","level":"INFO","msg":"handler: started","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:41:34.3275327+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T14:44:00.301863663+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T14:44:00.302344195+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T14:44:01.305610664+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.396812934,"progress":"1.5KB/1.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.396805254,"progress":"227B/227B"},{"desc":"uploading config.yaml","runtime_seconds":0.101773035,"progress":"807B/807B"}],"total_operations":3}}
+{"time":"2025-03-09T14:44:01.612275121+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T14:44:02.919731763+05:30","level":"INFO","msg":"stream: closing","id":"hyac9ics"}
+{"time":"2025-03-09T14:44:02.919751853+05:30","level":"INFO","msg":"handler: closed","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:44:02.919762013+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:44:02.919770813+05:30","level":"INFO","msg":"sender: closed","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:44:02.919840673+05:30","level":"INFO","msg":"stream: closed","id":"hyac9ics"}

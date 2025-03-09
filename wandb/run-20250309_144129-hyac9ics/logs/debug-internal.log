@@ -1,0 +1,16 @@
+{"time":"2025-03-09T14:41:30.010110928+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/akshaya/zDA6401/as111/dk/try1sweepX/wandb/run-20250309_144129-hyac9ics/logs/debug-core.log"}
+{"time":"2025-03-09T14:41:30.223132761+05:30","level":"INFO","msg":"created new stream","id":"hyac9ics"}
+{"time":"2025-03-09T14:41:30.223165671+05:30","level":"INFO","msg":"stream: started","id":"hyac9ics"}
+{"time":"2025-03-09T14:41:30.223209881+05:30","level":"INFO","msg":"sender: started","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:41:30.223202601+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:41:30.223285162+05:30","level":"INFO","msg":"handler: started","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:41:30.551523222+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T14:41:31.504222775+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T14:41:31.504726438+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T14:41:32.452373943+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T14:41:32.478109743+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-0, summary","runtime_seconds":0.025572919}],"total_operations":1}}
+{"time":"2025-03-09T14:41:33.775351137+05:30","level":"INFO","msg":"stream: closing","id":"hyac9ics"}
+{"time":"2025-03-09T14:41:33.775382227+05:30","level":"INFO","msg":"handler: closed","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:41:33.775398477+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:41:33.775417208+05:30","level":"INFO","msg":"sender: closed","stream_id":"hyac9ics"}
+{"time":"2025-03-09T14:41:33.775491268+05:30","level":"INFO","msg":"stream: closed","id":"hyac9ics"}

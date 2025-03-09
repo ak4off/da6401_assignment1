@@ -1,0 +1,67 @@
+_wandb:
+    value:
+        cli_version: 0.19.7
+        m: []
+        python_version: 3.12.9
+        t:
+            "1":
+                - 2
+                - 3
+                - 55
+            "2":
+                - 2
+                - 3
+                - 55
+            "3":
+                - 16
+                - 17
+                - 23
+                - 55
+            "4": 3.12.9
+            "5": 0.19.7
+            "8":
+                - 5
+            "12": 0.19.7
+            "13": linux-x86_64
+activation:
+    value: sigmoid
+batch_size:
+    value: 4
+beta:
+    value: 0.5
+beta1:
+    value: 0.5
+beta2:
+    value: 0.5
+dataset:
+    value: fashion_mnist
+epochs:
+    value: 10
+epsilon:
+    value: 1e-06
+gradient_clip_b:
+    value: 1
+gradient_clip_w:
+    value: 1
+hidden_size:
+    value: 128
+learning_rate:
+    value: 0.01
+loss:
+    value: cross_entropy
+momentum:
+    value: 0.5
+num_layers:
+    value: 3
+optimizer:
+    value: sgd
+use_wandb:
+    value: "true"
+wandb_entity:
+    value: ns24z274-iitm-ac-in
+wandb_project:
+    value: ns24z274_da6401_assignment1
+weight_decay:
+    value: 0
+weight_init:
+    value: Xavier

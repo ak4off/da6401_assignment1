@@ -14,12 +14,21 @@ class NeuralNetwork:
 
         self.layers = []
         in_size = self.config.in_dim        #   input layer size
-
+        
+        # Layer initialization (hidden layers + output layer)
         for _ in range(self.config.num_layers):
-            self.layers.append({'w': self.init_weights(in_size, self.config.hidden_size)})
+            # self.layers.append({'w': self.init_weights(in_size, self.config.hidden_size)})
+            self.layers.append({
+                'w': self.init_weights(in_size, self.config.hidden_size),
+                'b': np.zeros((1, self.config.hidden_size))  # Initialize biases to zeros
+            })            
             in_size = self.config.hidden_size
 
-        self.layers.append({'w': self.init_weights(in_size, self.config.out_dim)})
+        # self.layers.append({'w': self.init_weights(in_size, self.config.out_dim)})
+        self.layers.append({
+            'w': self.init_weights(in_size, self.config.out_dim),
+            'b': np.zeros((1, self.config.out_dim))  # Output layer biases
+        })        
 
         self.activation_fn = Activations.get(self.config.activation)
         self.activation_derivative = Activations.get_derivative(self.config.activation)
@@ -58,23 +67,35 @@ class NeuralNetwork:
     def forward(self, x):
         activations = [x]       #   list of activations with the input
         for layer in self.layers[:-1]:
-            x = self.activation_fn(x @ layer['w'])  # activation for all but o/p layer
+            # x = self.activation_fn(x @ layer['w'])  # activation for all but o/p layer
+            x = self.activation_fn(x @ layer['w'] + layer['b'])  # Add + layer['b']
+
             activations.append(x)
 
-        logits = x @ self.layers[-1]['w']       #   o/p layer
+        # logits = x @ self.layers[-1]['w']       #   o/p layer
+        logits = x @ self.layers[-1]['w'] + self.layers[-1]['b']  # Add bias to final logits
+
         y_pred = Activations.softmax(logits)    
         return activations, y_pred
 
     def backward(self, activations, y_tru, y_pred):
         grads = []
         delta = y_pred - y_tru
-
         for i in reversed(range(len(self.layers))):
-            grads.insert(0, activations[i].T @ delta / y_tru.shape[0])
+            dw = activations[i].T @ delta / y_tru.shape[0]   # Gradient w.r.t weights
+            db = np.sum(delta, axis=0, keepdims=True) / y_tru.shape[0]  # Gradient w.r.t biases
+            grads.insert(0, (dw, db))  # Store both weight and bias gradients
+
             if i > 0:
                 delta = (delta @ self.layers[i]['w'].T) * self.activation_derivative(activations[i])
 
         return grads
+        # for i in reversed(range(len(self.layers))):
+        #     grads.insert(0, activations[i].T @ delta / y_tru.shape[0])
+        #     if i > 0:
+        #         delta = (delta @ self.layers[i]['w'].T) * self.activation_derivative(activations[i])
+
+        # return grads
 
     def train_batch(self, x, y_tru):
         activations, y_pred = self.forward(x)
@@ -86,7 +107,12 @@ class NeuralNetwork:
     def run(self, train_img, train_labe, val_img, val_labe):
         num_samples = train_img.shape[0]
         num_batches = num_samples // self.config.batch_size
-
+        
+        val_accuracies = []
+        train_accuracies = []  # Collect training accuracy per epoch
+        train_losses = []
+        val_losses = [] # Collect validation loss per epoch 
+        
         for epoch in range(self.config.epochs):
             train_loss = 0.0
             correct_train = 0
@@ -131,11 +157,18 @@ class NeuralNetwork:
             # validation loss & accuracy
             val_loss, val_accuracy = self.evaluate(val_img, val_labe)
 
-            h
+            val_accuracies.append(val_accuracy)
+            train_accuracies.append(train_accuracy)  # Collect training accuracy per epoch
+            train_losses.append(train_loss)  # Collect training loss per epoch
+            val_losses.append(val_loss)  # Collect validation loss per epoch val_losses.append(val_loss)        
+
+
+            
             print(f"Epoch [{epoch+1}/{self.config.epochs}]")
             print(f"    Train Loss: {train_loss:.4f}, Train Accuracy: {train_accuracy:.4f}")
             print(f"    Val Loss: {val_loss:.4f}, Val Accuracy: {val_accuracy:.4f}")
 
+            
             # results to wandb
             if self.config.use_wandb:
                 self.logger.log({
@@ -162,6 +195,21 @@ class NeuralNetwork:
 
 
     #   testing the network
+    # def test(self, X, y):
+    #     _, y_pred = self.forward(X) 
+    #     return np.argmax(y_pred, axis=1)        #   class with highest prob
+
     def test(self, X, y):
-        _, y_pred = self.forward(X) 
-        return np.argmax(y_pred, axis=1)        #   class with highest prob
+        _, y_pred = self.forward(X)
+        y_pred_one_hot = Activations.softmax(y_pred)  # Ensure predictions are probabilities
+
+        # Calculate the test loss
+        y_one_hot = one_hot_encode(y, num_classes=10)
+        test_loss = self.loss_fn(y_one_hot, y_pred_one_hot)
+
+        # Calculate test accuracy
+        predicted_labels = np.argmax(y_pred_one_hot, axis=1)
+        test_accuracy = np.mean(predicted_labels == y)
+
+        return test_loss, test_accuracy, predicted_labels
+

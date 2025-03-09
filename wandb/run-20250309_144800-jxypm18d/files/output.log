@@ -1,0 +1,4 @@
+Epoch [1/15]
+    Train Loss: 2.3026, Train Accuracy: 0.0993
+    Val Loss: 2.3026, Val Accuracy: 0.0983
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.

@@ -1,0 +1,8 @@
+Dataset splits:
+Train set: (54000, 784), (54000,)
+Valid set: (6000, 784), (6000,)
+Test set: (10000, 784), (10000,)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: rhwsrhed
+Sweep URL: https://wandb.ai/ns24z274-iitm-ac-in/ns24z274_da6401_assignment1/sweeps/rhwsrhed
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

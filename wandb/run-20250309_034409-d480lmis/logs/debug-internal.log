@@ -1,0 +1,15 @@
+{"time":"2025-03-09T03:44:09.184100406+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/akshaya/zDA6401/as111/try1sweepX/wandb/run-20250309_034409-d480lmis/logs/debug-core.log"}
+{"time":"2025-03-09T03:44:09.398601632+05:30","level":"INFO","msg":"created new stream","id":"d480lmis"}
+{"time":"2025-03-09T03:44:09.398632192+05:30","level":"INFO","msg":"stream: started","id":"d480lmis"}
+{"time":"2025-03-09T03:44:09.398700481+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"d480lmis"}
+{"time":"2025-03-09T03:44:09.398733511+05:30","level":"INFO","msg":"sender: started","stream_id":"d480lmis"}
+{"time":"2025-03-09T03:44:09.39886961+05:30","level":"INFO","msg":"handler: started","stream_id":"d480lmis"}
+{"time":"2025-03-09T03:44:09.803810277+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T03:44:11.681012804+05:30","level":"INFO","msg":"stream: closing","id":"d480lmis"}
+{"time":"2025-03-09T03:44:11.681066313+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T03:44:11.68160441+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T03:44:13.305581644+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T03:44:13.594563221+05:30","level":"INFO","msg":"handler: closed","stream_id":"d480lmis"}
+{"time":"2025-03-09T03:44:13.594635841+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"d480lmis"}
+{"time":"2025-03-09T03:44:13.594678961+05:30","level":"INFO","msg":"sender: closed","stream_id":"d480lmis"}
+{"time":"2025-03-09T03:44:13.59479434+05:30","level":"INFO","msg":"stream: closed","id":"d480lmis"}

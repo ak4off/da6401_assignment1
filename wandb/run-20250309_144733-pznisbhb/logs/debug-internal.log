@@ -1,0 +1,16 @@
+{"time":"2025-03-09T14:47:33.599610512+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/speech/akshaya/zDA6401/as111/dk/try1sweepX/wandb/run-20250309_144733-pznisbhb/logs/debug-core.log"}
+{"time":"2025-03-09T14:47:33.812142912+05:30","level":"INFO","msg":"created new stream","id":"pznisbhb"}
+{"time":"2025-03-09T14:47:33.812182252+05:30","level":"INFO","msg":"stream: started","id":"pznisbhb"}
+{"time":"2025-03-09T14:47:33.812218292+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pznisbhb"}
+{"time":"2025-03-09T14:47:33.812248352+05:30","level":"INFO","msg":"handler: started","stream_id":"pznisbhb"}
+{"time":"2025-03-09T14:47:33.812283042+05:30","level":"INFO","msg":"sender: started","stream_id":"pznisbhb"}
+{"time":"2025-03-09T14:47:34.106628849+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T14:47:34.441271236+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T14:47:34.441795356+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T14:47:35.406113862+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.926360585,"progress":"1.1KB/1.1KB"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_7f9147937f711e4ba16e.png","runtime_seconds":0.159117887,"progress":"560B/560B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_ba8afe5093296b9da95d.png","runtime_seconds":0.159108187,"progress":"424B/424B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_65989982ca9140b3494a.png","runtime_seconds":0.159103707,"progress":"523B/523B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_c994f021ba36204ca3c1.png","runtime_seconds":0.159100227,"progress":"590B/590B"},{"desc":"uploading output.log","runtime_seconds":0.159096797},{"desc":"uploading wandb-summary.json","runtime_seconds":0.159090747,"progress":"983B/983B"},{"desc":"uploading wandb-metadata.json","runtime_seconds":0.159086397,"progress":"2.8KB/2.8KB"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_cd8689e0f2a035303171.png","runtime_seconds":0.159080957,"progress":"609B/609B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_352ec8bcbb7f793c3857.png","runtime_seconds":0.159077547,"progress":"503B/503B"}],"total_operations":14}}
+{"time":"2025-03-09T14:47:36.563206256+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T14:47:37.859980335+05:30","level":"INFO","msg":"stream: closing","id":"pznisbhb"}
+{"time":"2025-03-09T14:47:37.860037585+05:30","level":"INFO","msg":"handler: closed","stream_id":"pznisbhb"}
+{"time":"2025-03-09T14:47:37.860061865+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pznisbhb"}
+{"time":"2025-03-09T14:47:37.860108555+05:30","level":"INFO","msg":"sender: closed","stream_id":"pznisbhb"}
+{"time":"2025-03-09T14:47:37.860214315+05:30","level":"INFO","msg":"stream: closed","id":"pznisbhb"}
