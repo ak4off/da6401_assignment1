@@ -1,0 +1,16 @@
+{"time":"2025-03-17T15:47:24.929130892+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_154724-fii7mfwa/logs/debug-core.log"}
+{"time":"2025-03-17T15:47:25.142385721+05:30","level":"INFO","msg":"created new stream","id":"fii7mfwa"}
+{"time":"2025-03-17T15:47:25.14243109+05:30","level":"INFO","msg":"stream: started","id":"fii7mfwa"}
+{"time":"2025-03-17T15:47:25.142487259+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fii7mfwa"}
+{"time":"2025-03-17T15:47:25.142529429+05:30","level":"INFO","msg":"sender: started","stream_id":"fii7mfwa"}
+{"time":"2025-03-17T15:47:25.142589338+05:30","level":"INFO","msg":"handler: started","stream_id":"fii7mfwa"}
+{"time":"2025-03-17T15:47:25.503677702+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T15:49:03.136558281+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T15:49:03.137380409+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T15:49:04.138667362+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fii7mfwa-LossComparison_table","runtime_seconds":1.363664334,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.190902001,"progress":"5.4KB/5.4KB"}]},{"desc":"uploading artifact run-fii7mfwa-confusion_matrix_table","runtime_seconds":1.005136067}],"total_operations":2}}
+{"time":"2025-03-17T15:49:06.568605899+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T15:49:06.882988373+05:30","level":"INFO","msg":"stream: closing","id":"fii7mfwa"}
+{"time":"2025-03-17T15:49:06.883020212+05:30","level":"INFO","msg":"handler: closed","stream_id":"fii7mfwa"}
+{"time":"2025-03-17T15:49:06.883032992+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fii7mfwa"}
+{"time":"2025-03-17T15:49:06.883072231+05:30","level":"INFO","msg":"sender: closed","stream_id":"fii7mfwa"}
+{"time":"2025-03-17T15:49:06.883123781+05:30","level":"INFO","msg":"stream: closed","id":"fii7mfwa"}

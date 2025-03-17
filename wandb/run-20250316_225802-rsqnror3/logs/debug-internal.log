@@ -1,0 +1,16 @@
+{"time":"2025-03-16T22:58:02.043543527+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_225802-rsqnror3/logs/debug-core.log"}
+{"time":"2025-03-16T22:58:02.259205873+05:30","level":"INFO","msg":"created new stream","id":"rsqnror3"}
+{"time":"2025-03-16T22:58:02.259257803+05:30","level":"INFO","msg":"stream: started","id":"rsqnror3"}
+{"time":"2025-03-16T22:58:02.259296354+05:30","level":"INFO","msg":"sender: started","stream_id":"rsqnror3"}
+{"time":"2025-03-16T22:58:02.259302304+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rsqnror3"}
+{"time":"2025-03-16T22:58:02.259314584+05:30","level":"INFO","msg":"handler: started","stream_id":"rsqnror3"}
+{"time":"2025-03-16T22:58:02.570163813+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T22:58:48.50296879+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T22:58:48.503550265+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T22:58:49.505357056+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rsqnror3-LossComparison_table","runtime_seconds":1.344049326,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.212212378,"progress":"1.3KB/1.3KB"}]},{"desc":"uploading artifact run-rsqnror3-confusion_matrix_table","runtime_seconds":1.005567995},{"desc":"uploading config.yaml","runtime_seconds":0.408672713,"progress":"3.5KB/3.5KB"}],"total_operations":3}}
+{"time":"2025-03-16T22:58:51.908737079+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T22:58:52.223070805+05:30","level":"INFO","msg":"stream: closing","id":"rsqnror3"}
+{"time":"2025-03-16T22:58:52.223104236+05:30","level":"INFO","msg":"handler: closed","stream_id":"rsqnror3"}
+{"time":"2025-03-16T22:58:52.223123336+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rsqnror3"}
+{"time":"2025-03-16T22:58:52.223157576+05:30","level":"INFO","msg":"sender: closed","stream_id":"rsqnror3"}
+{"time":"2025-03-16T22:58:52.223211807+05:30","level":"INFO","msg":"stream: closed","id":"rsqnror3"}

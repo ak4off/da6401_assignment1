@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:17:12.422323188+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_131712-11p8y66t/logs/debug-core.log"}
+{"time":"2025-03-17T13:17:12.634491916+05:30","level":"INFO","msg":"created new stream","id":"11p8y66t"}
+{"time":"2025-03-17T13:17:12.634515056+05:30","level":"INFO","msg":"stream: started","id":"11p8y66t"}
+{"time":"2025-03-17T13:17:12.634572646+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"11p8y66t"}
+{"time":"2025-03-17T13:17:12.634576766+05:30","level":"INFO","msg":"sender: started","stream_id":"11p8y66t"}
+{"time":"2025-03-17T13:17:12.634608586+05:30","level":"INFO","msg":"handler: started","stream_id":"11p8y66t"}
+{"time":"2025-03-17T13:17:12.978111241+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:19:19.086502415+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:19:19.087429315+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:19:20.088131843+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-11p8y66t-LossComparison_table","runtime_seconds":1.169401322},{"desc":"uploading artifact run-11p8y66t-confusion_matrix_table","runtime_seconds":1.004720968}],"total_operations":2}}
+{"time":"2025-03-17T13:19:22.681028037+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:19:22.975421426+05:30","level":"INFO","msg":"stream: closing","id":"11p8y66t"}
+{"time":"2025-03-17T13:19:22.975449376+05:30","level":"INFO","msg":"handler: closed","stream_id":"11p8y66t"}
+{"time":"2025-03-17T13:19:22.975468786+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"11p8y66t"}
+{"time":"2025-03-17T13:19:22.975495306+05:30","level":"INFO","msg":"sender: closed","stream_id":"11p8y66t"}
+{"time":"2025-03-17T13:19:22.975553006+05:30","level":"INFO","msg":"stream: closed","id":"11p8y66t"}

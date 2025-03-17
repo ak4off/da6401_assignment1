@@ -1,0 +1,2 @@
+/speech/akshaya/zDA6401/for_confusion/the_activations.py:6: RuntimeWarning: overflow encountered in exp
+  return 1 / (1 + np.exp(-x))         #   1/1+e^-x;

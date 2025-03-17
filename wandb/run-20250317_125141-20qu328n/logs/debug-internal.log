@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:51:41.548145414+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_125141-20qu328n/logs/debug-core.log"}
+{"time":"2025-03-17T12:51:41.765784445+05:30","level":"INFO","msg":"created new stream","id":"20qu328n"}
+{"time":"2025-03-17T12:51:41.765871694+05:30","level":"INFO","msg":"stream: started","id":"20qu328n"}
+{"time":"2025-03-17T12:51:41.765905234+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"20qu328n"}
+{"time":"2025-03-17T12:51:41.766017504+05:30","level":"INFO","msg":"handler: started","stream_id":"20qu328n"}
+{"time":"2025-03-17T12:51:41.766046114+05:30","level":"INFO","msg":"sender: started","stream_id":"20qu328n"}
+{"time":"2025-03-17T12:51:42.114136164+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:51:42.507713124+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:51:42.508316422+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:51:43.472683482+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.371710426},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_adf48a208b1e9f1a3b47.png","runtime_seconds":0.371701496,"progress":"574B/574B"},{"desc":"uploading wandb-metadata.json","runtime_seconds":0.371696836,"progress":"2.5KB/2.5KB"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_ba8afe5093296b9da95d.png","runtime_seconds":0.371693686,"progress":"424B/424B"},{"desc":"uploading config.yaml","runtime_seconds":0.082016449,"progress":"883B/883B"}],"total_operations":5}}
+{"time":"2025-03-17T12:51:43.775097967+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:51:44.070645449+05:30","level":"INFO","msg":"stream: closing","id":"20qu328n"}
+{"time":"2025-03-17T12:51:44.070663759+05:30","level":"INFO","msg":"handler: closed","stream_id":"20qu328n"}
+{"time":"2025-03-17T12:51:44.070673589+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"20qu328n"}
+{"time":"2025-03-17T12:51:44.070683149+05:30","level":"INFO","msg":"sender: closed","stream_id":"20qu328n"}
+{"time":"2025-03-17T12:51:44.070747309+05:30","level":"INFO","msg":"stream: closed","id":"20qu328n"}

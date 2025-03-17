@@ -1,0 +1,16 @@
+{"time":"2025-03-17T11:39:39.09084307+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_113939-3zd3gnp9/logs/debug-core.log"}
+{"time":"2025-03-17T11:39:39.306058542+05:30","level":"INFO","msg":"created new stream","id":"3zd3gnp9"}
+{"time":"2025-03-17T11:39:39.306088642+05:30","level":"INFO","msg":"stream: started","id":"3zd3gnp9"}
+{"time":"2025-03-17T11:39:39.306144621+05:30","level":"INFO","msg":"sender: started","stream_id":"3zd3gnp9"}
+{"time":"2025-03-17T11:39:39.306182581+05:30","level":"INFO","msg":"handler: started","stream_id":"3zd3gnp9"}
+{"time":"2025-03-17T11:39:39.306160091+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"3zd3gnp9"}
+{"time":"2025-03-17T11:39:39.61939602+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T11:40:01.911135384+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T11:40:01.911777656+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T11:40:02.913430402+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-3zd3gnp9-LossComparison_table","runtime_seconds":4.653363002},{"desc":"uploading artifact run-3zd3gnp9-LossComparison_table","runtime_seconds":2.991873536},{"desc":"uploading artifact run-3zd3gnp9-LossComparison_table","runtime_seconds":1.327752268},{"desc":"uploading artifact run-3zd3gnp9-confusion_matrix_table","runtime_seconds":1.005563428},{"desc":"uploading media/table/confusion_matrix_table_22_9912b36d51cb6ccbd923.table.json","runtime_seconds":0.695242567,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.695204958},{"desc":"uploading wandb-summary.json","runtime_seconds":0.695194088,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.405325463,"progress":"3.5KB/3.5KB"}],"total_operations":8}}
+{"time":"2025-03-17T11:40:11.118833491+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T11:40:11.413945142+05:30","level":"INFO","msg":"stream: closing","id":"3zd3gnp9"}
+{"time":"2025-03-17T11:40:11.413980961+05:30","level":"INFO","msg":"handler: closed","stream_id":"3zd3gnp9"}
+{"time":"2025-03-17T11:40:11.413999791+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"3zd3gnp9"}
+{"time":"2025-03-17T11:40:11.414026471+05:30","level":"INFO","msg":"sender: closed","stream_id":"3zd3gnp9"}
+{"time":"2025-03-17T11:40:11.41410896+05:30","level":"INFO","msg":"stream: closed","id":"3zd3gnp9"}

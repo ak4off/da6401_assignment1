@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:23:21.802072618+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_132321-zfz8b452/logs/debug-core.log"}
+{"time":"2025-03-17T13:23:22.018204529+05:30","level":"INFO","msg":"created new stream","id":"zfz8b452"}
+{"time":"2025-03-17T13:23:22.018239779+05:30","level":"INFO","msg":"stream: started","id":"zfz8b452"}
+{"time":"2025-03-17T13:23:22.018296798+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zfz8b452"}
+{"time":"2025-03-17T13:23:22.018326738+05:30","level":"INFO","msg":"handler: started","stream_id":"zfz8b452"}
+{"time":"2025-03-17T13:23:22.018385008+05:30","level":"INFO","msg":"sender: started","stream_id":"zfz8b452"}
+{"time":"2025-03-17T13:23:22.326843585+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:23:54.672816099+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:23:54.673518738+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:23:55.674841039+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zfz8b452-LossComparison_table","runtime_seconds":14.439223694},{"desc":"uploading artifact run-zfz8b452-LossComparison_table","runtime_seconds":12.808275287},{"desc":"uploading artifact run-zfz8b452-LossComparison_table","runtime_seconds":11.1714026},{"desc":"uploading artifact run-zfz8b452-LossComparison_table","runtime_seconds":9.550178349},{"desc":"uploading artifact run-zfz8b452-LossComparison_table","runtime_seconds":7.6346736889999995},{"desc":"uploading artifact run-zfz8b452-LossComparison_table","runtime_seconds":6.065520823},{"desc":"uploading artifact run-zfz8b452-LossComparison_table","runtime_seconds":4.397059779},{"desc":"uploading artifact run-zfz8b452-LossComparison_table","runtime_seconds":2.598138747},{"desc":"uploading artifact run-zfz8b452-LossComparison_table","runtime_seconds":1.341808219},{"desc":"uploading artifact run-zfz8b452-confusion_matrix_table","runtime_seconds":1.00537112}],"total_operations":11}}
+{"time":"2025-03-17T13:24:19.673077079+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:24:19.970837987+05:30","level":"INFO","msg":"stream: closing","id":"zfz8b452"}
+{"time":"2025-03-17T13:24:19.970864546+05:30","level":"INFO","msg":"handler: closed","stream_id":"zfz8b452"}
+{"time":"2025-03-17T13:24:19.970877416+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zfz8b452"}
+{"time":"2025-03-17T13:24:19.970897196+05:30","level":"INFO","msg":"sender: closed","stream_id":"zfz8b452"}
+{"time":"2025-03-17T13:24:19.970962846+05:30","level":"INFO","msg":"stream: closed","id":"zfz8b452"}

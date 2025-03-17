@@ -1,0 +1,16 @@
+{"time":"2025-03-16T18:17:17.145311364+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_181717-uywao3wi/logs/debug-core.log"}
+{"time":"2025-03-16T18:17:17.364217174+05:30","level":"INFO","msg":"created new stream","id":"uywao3wi"}
+{"time":"2025-03-16T18:17:17.364257573+05:30","level":"INFO","msg":"stream: started","id":"uywao3wi"}
+{"time":"2025-03-16T18:17:17.364311513+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"uywao3wi"}
+{"time":"2025-03-16T18:17:17.364333023+05:30","level":"INFO","msg":"sender: started","stream_id":"uywao3wi"}
+{"time":"2025-03-16T18:17:17.364347033+05:30","level":"INFO","msg":"handler: started","stream_id":"uywao3wi"}
+{"time":"2025-03-16T18:17:17.678533347+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T18:21:11.120071506+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T18:21:11.120948718+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T18:21:12.123151022+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":49.472407047},{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":47.593194214},{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":44.494666109},{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":42.102163399},{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":40.332406785},{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":38.536785096},{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":35.073214156},{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":31.298821533},{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":29.359757108},{"desc":"uploading artifact run-uywao3wi-LossComparison_table","runtime_seconds":25.793536025999998}],"total_operations":19}}
+{"time":"2025-03-16T18:21:57.212006759+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T18:21:57.51512953+05:30","level":"INFO","msg":"stream: closing","id":"uywao3wi"}
+{"time":"2025-03-16T18:21:57.51516085+05:30","level":"INFO","msg":"handler: closed","stream_id":"uywao3wi"}
+{"time":"2025-03-16T18:21:57.51518258+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"uywao3wi"}
+{"time":"2025-03-16T18:21:57.515224349+05:30","level":"INFO","msg":"sender: closed","stream_id":"uywao3wi"}
+{"time":"2025-03-16T18:21:57.515350218+05:30","level":"INFO","msg":"stream: closed","id":"uywao3wi"}

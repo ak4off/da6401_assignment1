@@ -1,0 +1,16 @@
+{"time":"2025-03-17T14:44:06.713309131+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_144406-dup588sj/logs/debug-core.log"}
+{"time":"2025-03-17T14:44:06.930079303+05:30","level":"INFO","msg":"created new stream","id":"dup588sj"}
+{"time":"2025-03-17T14:44:06.930111413+05:30","level":"INFO","msg":"stream: started","id":"dup588sj"}
+{"time":"2025-03-17T14:44:06.930174142+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dup588sj"}
+{"time":"2025-03-17T14:44:06.930234911+05:30","level":"INFO","msg":"sender: started","stream_id":"dup588sj"}
+{"time":"2025-03-17T14:44:06.930280031+05:30","level":"INFO","msg":"handler: started","stream_id":"dup588sj"}
+{"time":"2025-03-17T14:44:07.262661255+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T14:49:33.840022035+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T14:49:33.840827727+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T14:49:34.841115907+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-dup588sj-LossComparison_table","runtime_seconds":1.3548803249999999,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.186444647,"progress":"3.7KB/3.7KB"}]},{"desc":"uploading artifact run-dup588sj-confusion_matrix_table","runtime_seconds":1.00560708}],"total_operations":2}}
+{"time":"2025-03-17T14:49:37.365384073+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T14:49:37.684606729+05:30","level":"INFO","msg":"stream: closing","id":"dup588sj"}
+{"time":"2025-03-17T14:49:37.684628139+05:30","level":"INFO","msg":"handler: closed","stream_id":"dup588sj"}
+{"time":"2025-03-17T14:49:37.684641449+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dup588sj"}
+{"time":"2025-03-17T14:49:37.684669089+05:30","level":"INFO","msg":"sender: closed","stream_id":"dup588sj"}
+{"time":"2025-03-17T14:49:37.684716578+05:30","level":"INFO","msg":"stream: closed","id":"dup588sj"}

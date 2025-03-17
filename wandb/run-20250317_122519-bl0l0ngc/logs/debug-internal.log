@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:25:19.98986542+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_122519-bl0l0ngc/logs/debug-core.log"}
+{"time":"2025-03-17T12:25:20.203577191+05:30","level":"INFO","msg":"created new stream","id":"bl0l0ngc"}
+{"time":"2025-03-17T12:25:20.203614821+05:30","level":"INFO","msg":"stream: started","id":"bl0l0ngc"}
+{"time":"2025-03-17T12:25:20.20368526+05:30","level":"INFO","msg":"handler: started","stream_id":"bl0l0ngc"}
+{"time":"2025-03-17T12:25:20.20369171+05:30","level":"INFO","msg":"sender: started","stream_id":"bl0l0ngc"}
+{"time":"2025-03-17T12:25:20.20368825+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bl0l0ngc"}
+{"time":"2025-03-17T12:25:20.519455969+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:29:45.661268885+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:29:45.662173662+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:29:46.66498558+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-bl0l0ngc-LossComparison_table","runtime_seconds":6.421540976},{"desc":"uploading artifact run-bl0l0ngc-LossComparison_table","runtime_seconds":3.671012533},{"desc":"uploading artifact run-bl0l0ngc-LossComparison_table","runtime_seconds":1.427006985},{"desc":"uploading artifact run-bl0l0ngc-confusion_matrix_table","runtime_seconds":1.009041899}],"total_operations":4}}
+{"time":"2025-03-17T12:29:53.827478652+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:29:54.178145455+05:30","level":"INFO","msg":"stream: closing","id":"bl0l0ngc"}
+{"time":"2025-03-17T12:29:54.178184425+05:30","level":"INFO","msg":"handler: closed","stream_id":"bl0l0ngc"}
+{"time":"2025-03-17T12:29:54.178208584+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bl0l0ngc"}
+{"time":"2025-03-17T12:29:54.178224104+05:30","level":"INFO","msg":"sender: closed","stream_id":"bl0l0ngc"}
+{"time":"2025-03-17T12:29:54.178291563+05:30","level":"INFO","msg":"stream: closed","id":"bl0l0ngc"}

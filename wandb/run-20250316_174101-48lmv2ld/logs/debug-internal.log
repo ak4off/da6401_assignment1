@@ -1,0 +1,16 @@
+{"time":"2025-03-16T17:41:01.91327115+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_174101-48lmv2ld/logs/debug-core.log"}
+{"time":"2025-03-16T17:41:02.127859799+05:30","level":"INFO","msg":"created new stream","id":"48lmv2ld"}
+{"time":"2025-03-16T17:41:02.127895839+05:30","level":"INFO","msg":"stream: started","id":"48lmv2ld"}
+{"time":"2025-03-16T17:41:02.127953718+05:30","level":"INFO","msg":"handler: started","stream_id":"48lmv2ld"}
+{"time":"2025-03-16T17:41:02.127983238+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"48lmv2ld"}
+{"time":"2025-03-16T17:41:02.128126847+05:30","level":"INFO","msg":"sender: started","stream_id":"48lmv2ld"}
+{"time":"2025-03-16T17:41:02.43977473+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T17:44:47.747574709+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T17:44:47.748126185+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T17:44:48.751180296+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":38.661122436},{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":36.938793046},{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":32.910368546},{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":30.884774967},{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":27.366198374},{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":25.677835308},{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":22.717345488},{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":20.795459456},{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":19.052573077},{"desc":"uploading artifact run-48lmv2ld-LossComparison_table","runtime_seconds":17.285623795}],"total_operations":20}}
+{"time":"2025-03-16T17:45:37.007438422+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T17:45:37.288763098+05:30","level":"INFO","msg":"stream: closing","id":"48lmv2ld"}
+{"time":"2025-03-16T17:45:37.288790148+05:30","level":"INFO","msg":"handler: closed","stream_id":"48lmv2ld"}
+{"time":"2025-03-16T17:45:37.288826908+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"48lmv2ld"}
+{"time":"2025-03-16T17:45:37.288897358+05:30","level":"INFO","msg":"sender: closed","stream_id":"48lmv2ld"}
+{"time":"2025-03-16T17:45:37.288938737+05:30","level":"INFO","msg":"stream: closed","id":"48lmv2ld"}

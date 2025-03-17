@@ -1,0 +1,16 @@
+{"time":"2025-03-17T10:31:15.883636897+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_103115-7qmy6lny/logs/debug-core.log"}
+{"time":"2025-03-17T10:31:16.105977977+05:30","level":"INFO","msg":"created new stream","id":"7qmy6lny"}
+{"time":"2025-03-17T10:31:16.106027908+05:30","level":"INFO","msg":"stream: started","id":"7qmy6lny"}
+{"time":"2025-03-17T10:31:16.106050058+05:30","level":"INFO","msg":"handler: started","stream_id":"7qmy6lny"}
+{"time":"2025-03-17T10:31:16.106103259+05:30","level":"INFO","msg":"sender: started","stream_id":"7qmy6lny"}
+{"time":"2025-03-17T10:31:16.106259201+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"7qmy6lny"}
+{"time":"2025-03-17T10:31:16.437275007+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T10:31:17.31238415+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T10:31:17.313111371+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T10:31:18.284500309+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/Fashion_MNIST_Samples_0_f9ae28233f32bf80214f.png","runtime_seconds":0.7084569,"progress":"681B/681B"}],"total_operations":1}}
+{"time":"2025-03-17T10:31:18.907708164+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T10:31:19.210049097+05:30","level":"INFO","msg":"stream: closing","id":"7qmy6lny"}
+{"time":"2025-03-17T10:31:19.210084327+05:30","level":"INFO","msg":"handler: closed","stream_id":"7qmy6lny"}
+{"time":"2025-03-17T10:31:19.210101608+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"7qmy6lny"}
+{"time":"2025-03-17T10:31:19.210118118+05:30","level":"INFO","msg":"sender: closed","stream_id":"7qmy6lny"}
+{"time":"2025-03-17T10:31:19.210195179+05:30","level":"INFO","msg":"stream: closed","id":"7qmy6lny"}

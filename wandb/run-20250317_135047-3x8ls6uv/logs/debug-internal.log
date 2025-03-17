@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:50:47.397498485+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_135047-3x8ls6uv/logs/debug-core.log"}
+{"time":"2025-03-17T13:50:47.610927644+05:30","level":"INFO","msg":"created new stream","id":"3x8ls6uv"}
+{"time":"2025-03-17T13:50:47.610951974+05:30","level":"INFO","msg":"stream: started","id":"3x8ls6uv"}
+{"time":"2025-03-17T13:50:47.610983024+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"3x8ls6uv"}
+{"time":"2025-03-17T13:50:47.611002094+05:30","level":"INFO","msg":"sender: started","stream_id":"3x8ls6uv"}
+{"time":"2025-03-17T13:50:47.611031723+05:30","level":"INFO","msg":"handler: started","stream_id":"3x8ls6uv"}
+{"time":"2025-03-17T13:50:47.975010065+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:59:06.999860671+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:59:07.000676765+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:59:08.002342326+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-3x8ls6uv-LossComparison_table","runtime_seconds":1.3526546,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.196958541,"progress":"5.3KB/5.3KB"}]},{"desc":"uploading artifact run-3x8ls6uv-confusion_matrix_table","runtime_seconds":1.005898147}],"total_operations":2}}
+{"time":"2025-03-17T13:59:10.535924369+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:59:10.827024852+05:30","level":"INFO","msg":"stream: closing","id":"3x8ls6uv"}
+{"time":"2025-03-17T13:59:10.827054072+05:30","level":"INFO","msg":"handler: closed","stream_id":"3x8ls6uv"}
+{"time":"2025-03-17T13:59:10.827071302+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"3x8ls6uv"}
+{"time":"2025-03-17T13:59:10.827104802+05:30","level":"INFO","msg":"sender: closed","stream_id":"3x8ls6uv"}
+{"time":"2025-03-17T13:59:10.827189031+05:30","level":"INFO","msg":"stream: closed","id":"3x8ls6uv"}

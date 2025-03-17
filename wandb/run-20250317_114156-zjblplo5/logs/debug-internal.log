@@ -1,0 +1,16 @@
+{"time":"2025-03-17T11:41:56.885697392+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_114156-zjblplo5/logs/debug-core.log"}
+{"time":"2025-03-17T11:41:57.100863949+05:30","level":"INFO","msg":"created new stream","id":"zjblplo5"}
+{"time":"2025-03-17T11:41:57.100917188+05:30","level":"INFO","msg":"stream: started","id":"zjblplo5"}
+{"time":"2025-03-17T11:41:57.100941848+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zjblplo5"}
+{"time":"2025-03-17T11:41:57.100974928+05:30","level":"INFO","msg":"sender: started","stream_id":"zjblplo5"}
+{"time":"2025-03-17T11:41:57.100960548+05:30","level":"INFO","msg":"handler: started","stream_id":"zjblplo5"}
+{"time":"2025-03-17T11:41:57.418802316+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T11:43:04.835358615+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T11:43:04.835991178+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T11:43:05.837326395+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zjblplo5-LossComparison_table","runtime_seconds":1.6909644190000002},{"desc":"uploading artifact run-zjblplo5-confusion_matrix_table","runtime_seconds":1.005180346},{"desc":"uploading config.yaml","runtime_seconds":0.406240047,"progress":"3.5KB/3.5KB"},{"desc":"uploading output.log","runtime_seconds":0.382471719},{"desc":"uploading wandb-summary.json","runtime_seconds":0.382456439,"progress":"1.8KB/1.8KB"}],"total_operations":5}}
+{"time":"2025-03-17T11:43:08.110698275+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T11:43:08.492250613+05:30","level":"INFO","msg":"stream: closing","id":"zjblplo5"}
+{"time":"2025-03-17T11:43:08.492285172+05:30","level":"INFO","msg":"handler: closed","stream_id":"zjblplo5"}
+{"time":"2025-03-17T11:43:08.492298522+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zjblplo5"}
+{"time":"2025-03-17T11:43:08.492321432+05:30","level":"INFO","msg":"sender: closed","stream_id":"zjblplo5"}
+{"time":"2025-03-17T11:43:08.492392681+05:30","level":"INFO","msg":"stream: closed","id":"zjblplo5"}

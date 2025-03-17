@@ -1,0 +1,16 @@
+{"time":"2025-03-17T11:50:55.862761764+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_115055-dpmo4dyk/logs/debug-core.log"}
+{"time":"2025-03-17T11:50:56.077074114+05:30","level":"INFO","msg":"created new stream","id":"dpmo4dyk"}
+{"time":"2025-03-17T11:50:56.077132293+05:30","level":"INFO","msg":"stream: started","id":"dpmo4dyk"}
+{"time":"2025-03-17T11:50:56.077195203+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dpmo4dyk"}
+{"time":"2025-03-17T11:50:56.077238062+05:30","level":"INFO","msg":"sender: started","stream_id":"dpmo4dyk"}
+{"time":"2025-03-17T11:50:56.077281432+05:30","level":"INFO","msg":"handler: started","stream_id":"dpmo4dyk"}
+{"time":"2025-03-17T11:50:56.399445856+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T11:51:08.927701607+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T11:51:08.928550381+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T11:51:09.930265848+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-dpmo4dyk-LossComparison_table","runtime_seconds":7.407928325},{"desc":"uploading artifact run-dpmo4dyk-LossComparison_table","runtime_seconds":6.564074},{"desc":"uploading artifact run-dpmo4dyk-LossComparison_table","runtime_seconds":4.742622745},{"desc":"uploading artifact run-dpmo4dyk-LossComparison_table","runtime_seconds":3.6284601800000003},{"desc":"uploading artifact run-dpmo4dyk-LossComparison_table","runtime_seconds":2.475947391},{"desc":"uploading artifact run-dpmo4dyk-LossComparison_table","runtime_seconds":1.307781244},{"desc":"uploading artifact run-dpmo4dyk-confusion_matrix_table","runtime_seconds":1.005782605},{"desc":"uploading config.yaml","runtime_seconds":0.410359215,"progress":"3.5KB/3.5KB"}],"total_operations":8}}
+{"time":"2025-03-17T11:51:25.98925935+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T11:51:26.262962953+05:30","level":"INFO","msg":"stream: closing","id":"dpmo4dyk"}
+{"time":"2025-03-17T11:51:26.262992992+05:30","level":"INFO","msg":"handler: closed","stream_id":"dpmo4dyk"}
+{"time":"2025-03-17T11:51:26.263019082+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dpmo4dyk"}
+{"time":"2025-03-17T11:51:26.263039822+05:30","level":"INFO","msg":"sender: closed","stream_id":"dpmo4dyk"}
+{"time":"2025-03-17T11:51:26.263112101+05:30","level":"INFO","msg":"stream: closed","id":"dpmo4dyk"}

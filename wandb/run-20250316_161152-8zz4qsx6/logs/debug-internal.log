@@ -1,0 +1,16 @@
+{"time":"2025-03-16T16:11:52.636993491+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_161152-8zz4qsx6/logs/debug-core.log"}
+{"time":"2025-03-16T16:11:52.851343393+05:30","level":"INFO","msg":"created new stream","id":"8zz4qsx6"}
+{"time":"2025-03-16T16:11:52.851397114+05:30","level":"INFO","msg":"stream: started","id":"8zz4qsx6"}
+{"time":"2025-03-16T16:11:52.851428944+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"8zz4qsx6"}
+{"time":"2025-03-16T16:11:52.851500424+05:30","level":"INFO","msg":"sender: started","stream_id":"8zz4qsx6"}
+{"time":"2025-03-16T16:11:52.851534004+05:30","level":"INFO","msg":"handler: started","stream_id":"8zz4qsx6"}
+{"time":"2025-03-16T16:11:53.173285311+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T16:15:43.593201259+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T16:15:43.594165759+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T16:15:44.557903049+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":36.904162529,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.357310304,"progress":"14.3KB/14.3KB"}]},{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":34.725453607},{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":32.469657693},{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":30.284143737},{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":28.027528309},{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":25.767394171},{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":23.391354925999998},{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":21.022224792},{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":18.840469658},{"desc":"uploading artifact run-8zz4qsx6-LossComparison_table","runtime_seconds":16.591702637}],"total_operations":18}}
+{"time":"2025-03-16T16:16:26.928392367+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T16:16:27.216076508+05:30","level":"INFO","msg":"stream: closing","id":"8zz4qsx6"}
+{"time":"2025-03-16T16:16:27.216115228+05:30","level":"INFO","msg":"handler: closed","stream_id":"8zz4qsx6"}
+{"time":"2025-03-16T16:16:27.216137908+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"8zz4qsx6"}
+{"time":"2025-03-16T16:16:27.216155868+05:30","level":"INFO","msg":"sender: closed","stream_id":"8zz4qsx6"}
+{"time":"2025-03-16T16:16:27.216253628+05:30","level":"INFO","msg":"stream: closed","id":"8zz4qsx6"}

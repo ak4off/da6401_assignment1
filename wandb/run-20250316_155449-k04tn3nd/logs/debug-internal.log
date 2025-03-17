@@ -1,0 +1,16 @@
+{"time":"2025-03-16T15:54:49.491058183+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_155449-k04tn3nd/logs/debug-core.log"}
+{"time":"2025-03-16T15:54:49.711234799+05:30","level":"INFO","msg":"created new stream","id":"k04tn3nd"}
+{"time":"2025-03-16T15:54:49.711279949+05:30","level":"INFO","msg":"stream: started","id":"k04tn3nd"}
+{"time":"2025-03-16T15:54:49.711362909+05:30","level":"INFO","msg":"handler: started","stream_id":"k04tn3nd"}
+{"time":"2025-03-16T15:54:49.711399368+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"k04tn3nd"}
+{"time":"2025-03-16T15:54:49.711600267+05:30","level":"INFO","msg":"sender: started","stream_id":"k04tn3nd"}
+{"time":"2025-03-16T15:54:50.028585889+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T15:55:05.004782465+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T15:55:05.005581991+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T15:55:06.007396123+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-k04tn3nd-LossComparison_table","runtime_seconds":6.869387221},{"desc":"uploading artifact run-k04tn3nd-LossComparison_table","runtime_seconds":4.716060574},{"desc":"uploading artifact run-k04tn3nd-LossComparison_table","runtime_seconds":3.544046938},{"desc":"uploading artifact run-k04tn3nd-LossComparison_table","runtime_seconds":2.4538555},{"desc":"uploading artifact run-k04tn3nd-LossComparison_table","runtime_seconds":1.330606959},{"desc":"uploading artifact run-k04tn3nd-confusion_matrix_table","runtime_seconds":1.00584001},{"desc":"uploading config.yaml","runtime_seconds":0.4001324,"progress":"3.5KB/3.5KB"},{"desc":"uploading history steps 1-23, summary, console lines 0-33","runtime_seconds":0.01445901}],"total_operations":8}}
+{"time":"2025-03-16T15:55:20.160395149+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T15:55:20.440262608+05:30","level":"INFO","msg":"stream: closing","id":"k04tn3nd"}
+{"time":"2025-03-16T15:55:20.440296098+05:30","level":"INFO","msg":"handler: closed","stream_id":"k04tn3nd"}
+{"time":"2025-03-16T15:55:20.440314108+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"k04tn3nd"}
+{"time":"2025-03-16T15:55:20.440359908+05:30","level":"INFO","msg":"sender: closed","stream_id":"k04tn3nd"}
+{"time":"2025-03-16T15:55:20.440420857+05:30","level":"INFO","msg":"stream: closed","id":"k04tn3nd"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-17T11:37:54.06363157+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_113754-fsfeihfx/logs/debug-core.log"}
+{"time":"2025-03-17T11:37:54.28012955+05:30","level":"INFO","msg":"created new stream","id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:54.280183779+05:30","level":"INFO","msg":"stream: started","id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:54.280213689+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:54.280233998+05:30","level":"INFO","msg":"handler: started","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:54.280266308+05:30","level":"INFO","msg":"sender: started","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:54.568679394+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T11:39:21.198215525+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T11:39:21.198877146+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T11:39:22.200216134+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fsfeihfx-LossComparison_table","runtime_seconds":1.6272459590000001},{"desc":"uploading artifact run-fsfeihfx-confusion_matrix_table","runtime_seconds":1.005518834},{"desc":"uploading media/table/confusion_matrix_table_12_ff552d1050ad0c775c09.table.json","runtime_seconds":0.686809664,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.686799354},{"desc":"uploading wandb-summary.json","runtime_seconds":0.686791455,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.395046217,"progress":"3.5KB/3.5KB"}],"total_operations":6}}
+{"time":"2025-03-17T11:39:24.451913784+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T11:39:24.773462558+05:30","level":"INFO","msg":"stream: closing","id":"fsfeihfx"}
+{"time":"2025-03-17T11:39:24.773479828+05:30","level":"INFO","msg":"handler: closed","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:39:24.773490778+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:39:24.773521438+05:30","level":"INFO","msg":"sender: closed","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:39:24.773559237+05:30","level":"INFO","msg":"stream: closed","id":"fsfeihfx"}

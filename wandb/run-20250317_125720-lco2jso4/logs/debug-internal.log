@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:57:20.449639301+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_125720-lco2jso4/logs/debug-core.log"}
+{"time":"2025-03-17T12:57:20.668080852+05:30","level":"INFO","msg":"created new stream","id":"lco2jso4"}
+{"time":"2025-03-17T12:57:20.668152002+05:30","level":"INFO","msg":"stream: started","id":"lco2jso4"}
+{"time":"2025-03-17T12:57:20.668179272+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lco2jso4"}
+{"time":"2025-03-17T12:57:20.668219711+05:30","level":"INFO","msg":"sender: started","stream_id":"lco2jso4"}
+{"time":"2025-03-17T12:57:20.668224111+05:30","level":"INFO","msg":"handler: started","stream_id":"lco2jso4"}
+{"time":"2025-03-17T12:57:21.020815969+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:00:43.505797594+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:00:43.506530679+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:00:44.507562919+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-lco2jso4-LossComparison_table","runtime_seconds":4.248740652},{"desc":"uploading artifact run-lco2jso4-LossComparison_table","runtime_seconds":1.384198439},{"desc":"uploading artifact run-lco2jso4-confusion_matrix_table","runtime_seconds":1.005924114}],"total_operations":3}}
+{"time":"2025-03-17T13:00:48.790588713+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:00:49.087949455+05:30","level":"INFO","msg":"stream: closing","id":"lco2jso4"}
+{"time":"2025-03-17T13:00:49.087966775+05:30","level":"INFO","msg":"handler: closed","stream_id":"lco2jso4"}
+{"time":"2025-03-17T13:00:49.087982125+05:30","level":"INFO","msg":"sender: closed","stream_id":"lco2jso4"}
+{"time":"2025-03-17T13:00:49.087977285+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lco2jso4"}
+{"time":"2025-03-17T13:00:49.088067944+05:30","level":"INFO","msg":"stream: closed","id":"lco2jso4"}

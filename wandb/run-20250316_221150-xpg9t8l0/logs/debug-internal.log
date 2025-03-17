@@ -1,0 +1,16 @@
+{"time":"2025-03-16T22:11:50.82344758+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_221150-xpg9t8l0/logs/debug-core.log"}
+{"time":"2025-03-16T22:11:51.042768567+05:30","level":"INFO","msg":"created new stream","id":"xpg9t8l0"}
+{"time":"2025-03-16T22:11:51.042831176+05:30","level":"INFO","msg":"stream: started","id":"xpg9t8l0"}
+{"time":"2025-03-16T22:11:51.042850086+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xpg9t8l0"}
+{"time":"2025-03-16T22:11:51.042864686+05:30","level":"INFO","msg":"sender: started","stream_id":"xpg9t8l0"}
+{"time":"2025-03-16T22:11:51.042905306+05:30","level":"INFO","msg":"handler: started","stream_id":"xpg9t8l0"}
+{"time":"2025-03-16T22:11:51.357091585+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T22:12:03.841779374+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T22:12:03.842726905+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T22:12:04.810390593+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-xpg9t8l0-LossComparison_table","runtime_seconds":3.937559738,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.020241618,"progress":"1.1KB/1.1KB"}]},{"desc":"uploading artifact run-xpg9t8l0-LossComparison_table","runtime_seconds":1.4172009540000001},{"desc":"uploading artifact run-xpg9t8l0-confusion_matrix_table","runtime_seconds":1.010362324},{"desc":"uploading output.log","runtime_seconds":0.66162025,"progress":"619B/619B"},{"desc":"uploading config.yaml","runtime_seconds":0.330465698,"progress":"3.5KB/3.5KB"}],"total_operations":5}}
+{"time":"2025-03-16T22:12:09.012501922+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T22:12:09.312045404+05:30","level":"INFO","msg":"stream: closing","id":"xpg9t8l0"}
+{"time":"2025-03-16T22:12:09.312098944+05:30","level":"INFO","msg":"handler: closed","stream_id":"xpg9t8l0"}
+{"time":"2025-03-16T22:12:09.312123953+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xpg9t8l0"}
+{"time":"2025-03-16T22:12:09.312137263+05:30","level":"INFO","msg":"sender: closed","stream_id":"xpg9t8l0"}
+{"time":"2025-03-16T22:12:09.312343721+05:30","level":"INFO","msg":"stream: closed","id":"xpg9t8l0"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-17T14:01:35.385624694+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_140135-d9d2pqb6/logs/debug-core.log"}
+{"time":"2025-03-17T14:01:35.598701175+05:30","level":"INFO","msg":"created new stream","id":"d9d2pqb6"}
+{"time":"2025-03-17T14:01:35.598728435+05:30","level":"INFO","msg":"stream: started","id":"d9d2pqb6"}
+{"time":"2025-03-17T14:01:35.598809214+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"d9d2pqb6"}
+{"time":"2025-03-17T14:01:35.598865113+05:30","level":"INFO","msg":"handler: started","stream_id":"d9d2pqb6"}
+{"time":"2025-03-17T14:01:35.598859534+05:30","level":"INFO","msg":"sender: started","stream_id":"d9d2pqb6"}
+{"time":"2025-03-17T14:01:35.975682174+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T14:12:59.686137596+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T14:12:59.687208778+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T14:13:00.688980339+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-d9d2pqb6-LossComparison_table","runtime_seconds":1.657599078},{"desc":"uploading artifact run-d9d2pqb6-confusion_matrix_table","runtime_seconds":1.00718688}],"total_operations":2}}
+{"time":"2025-03-17T14:13:02.912491448+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T14:13:03.248908843+05:30","level":"INFO","msg":"stream: closing","id":"d9d2pqb6"}
+{"time":"2025-03-17T14:13:03.248940523+05:30","level":"INFO","msg":"handler: closed","stream_id":"d9d2pqb6"}
+{"time":"2025-03-17T14:13:03.248953923+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"d9d2pqb6"}
+{"time":"2025-03-17T14:13:03.248966223+05:30","level":"INFO","msg":"sender: closed","stream_id":"d9d2pqb6"}
+{"time":"2025-03-17T14:13:03.249051052+05:30","level":"INFO","msg":"stream: closed","id":"d9d2pqb6"}

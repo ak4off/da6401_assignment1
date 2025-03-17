@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:20:30.162257514+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_132030-oqmkqvg3/logs/debug-core.log"}
+{"time":"2025-03-17T13:20:30.37560824+05:30","level":"INFO","msg":"created new stream","id":"oqmkqvg3"}
+{"time":"2025-03-17T13:20:30.37563501+05:30","level":"INFO","msg":"stream: started","id":"oqmkqvg3"}
+{"time":"2025-03-17T13:20:30.37564587+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"oqmkqvg3"}
+{"time":"2025-03-17T13:20:30.37568698+05:30","level":"INFO","msg":"sender: started","stream_id":"oqmkqvg3"}
+{"time":"2025-03-17T13:20:30.37568241+05:30","level":"INFO","msg":"handler: started","stream_id":"oqmkqvg3"}
+{"time":"2025-03-17T13:20:30.68866187+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:20:52.765699915+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:20:52.766509814+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:20:53.767163651+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-oqmkqvg3-LossComparison_table","runtime_seconds":1.360322899,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.246013345,"progress":"1.3KB/1.3KB"}]},{"desc":"uploading artifact run-oqmkqvg3-confusion_matrix_table","runtime_seconds":1.004354923},{"desc":"uploading output.log","runtime_seconds":0.699292276},{"desc":"uploading wandb-summary.json","runtime_seconds":0.699288226,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.383441883,"progress":"3.5KB/3.5KB"}],"total_operations":5}}
+{"time":"2025-03-17T13:20:56.188993965+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:20:56.503950028+05:30","level":"INFO","msg":"stream: closing","id":"oqmkqvg3"}
+{"time":"2025-03-17T13:20:56.503979728+05:30","level":"INFO","msg":"handler: closed","stream_id":"oqmkqvg3"}
+{"time":"2025-03-17T13:20:56.504002298+05:30","level":"INFO","msg":"sender: closed","stream_id":"oqmkqvg3"}
+{"time":"2025-03-17T13:20:56.503995018+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"oqmkqvg3"}
+{"time":"2025-03-17T13:20:56.504137208+05:30","level":"INFO","msg":"stream: closed","id":"oqmkqvg3"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:44:47.633548451+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_134447-vshs1dq8/logs/debug-core.log"}
+{"time":"2025-03-17T13:44:47.850314242+05:30","level":"INFO","msg":"created new stream","id":"vshs1dq8"}
+{"time":"2025-03-17T13:44:47.850334322+05:30","level":"INFO","msg":"stream: started","id":"vshs1dq8"}
+{"time":"2025-03-17T13:44:47.850372011+05:30","level":"INFO","msg":"sender: started","stream_id":"vshs1dq8"}
+{"time":"2025-03-17T13:44:47.850369441+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vshs1dq8"}
+{"time":"2025-03-17T13:44:47.850384371+05:30","level":"INFO","msg":"handler: started","stream_id":"vshs1dq8"}
+{"time":"2025-03-17T13:44:48.182412012+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:45:15.048640571+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:45:15.049334683+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:45:16.050623147+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vshs1dq8-LossComparison_table","runtime_seconds":1.329648029,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.130285989,"progress":"1.3KB/1.3KB"}]},{"desc":"uploading artifact run-vshs1dq8-confusion_matrix_table","runtime_seconds":1.005973412},{"desc":"uploading media/table/confusion_matrix_table_12_efca8ec0912f5238a741.table.json","runtime_seconds":0.701590569,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.701568269},{"desc":"uploading wandb-summary.json","runtime_seconds":0.701561239,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.393427568,"progress":"3.5KB/3.5KB"}],"total_operations":6}}
+{"time":"2025-03-17T13:45:18.577446718+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:45:18.916319716+05:30","level":"INFO","msg":"stream: closing","id":"vshs1dq8"}
+{"time":"2025-03-17T13:45:18.916344376+05:30","level":"INFO","msg":"handler: closed","stream_id":"vshs1dq8"}
+{"time":"2025-03-17T13:45:18.916356096+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vshs1dq8"}
+{"time":"2025-03-17T13:45:18.916381185+05:30","level":"INFO","msg":"sender: closed","stream_id":"vshs1dq8"}
+{"time":"2025-03-17T13:45:18.916492034+05:30","level":"INFO","msg":"stream: closed","id":"vshs1dq8"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:42:55.695408248+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_134255-nofrfd3c/logs/debug-core.log"}
+{"time":"2025-03-17T13:42:55.911172914+05:30","level":"INFO","msg":"created new stream","id":"nofrfd3c"}
+{"time":"2025-03-17T13:42:55.911202814+05:30","level":"INFO","msg":"stream: started","id":"nofrfd3c"}
+{"time":"2025-03-17T13:42:55.911216614+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nofrfd3c"}
+{"time":"2025-03-17T13:42:55.911227154+05:30","level":"INFO","msg":"handler: started","stream_id":"nofrfd3c"}
+{"time":"2025-03-17T13:42:55.911251994+05:30","level":"INFO","msg":"sender: started","stream_id":"nofrfd3c"}
+{"time":"2025-03-17T13:42:56.202046468+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:43:06.051595792+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:43:06.052277708+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:43:07.053448975+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-nofrfd3c-LossComparison_table","runtime_seconds":3.190619403},{"desc":"uploading artifact run-nofrfd3c-LossComparison_table","runtime_seconds":1.341489151},{"desc":"uploading artifact run-nofrfd3c-confusion_matrix_table","runtime_seconds":1.006109156},{"desc":"uploading media/table/confusion_matrix_table_12_0bfbd3cb7ae630c696fb.table.json","runtime_seconds":0.702612905,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.702597676},{"desc":"uploading wandb-summary.json","runtime_seconds":0.702594496,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.388080156,"progress":"3.5KB/3.5KB"}],"total_operations":7}}
+{"time":"2025-03-17T13:43:12.446855989+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:43:12.727536085+05:30","level":"INFO","msg":"stream: closing","id":"nofrfd3c"}
+{"time":"2025-03-17T13:43:12.727562505+05:30","level":"INFO","msg":"handler: closed","stream_id":"nofrfd3c"}
+{"time":"2025-03-17T13:43:12.727575484+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nofrfd3c"}
+{"time":"2025-03-17T13:43:12.727585104+05:30","level":"INFO","msg":"sender: closed","stream_id":"nofrfd3c"}
+{"time":"2025-03-17T13:43:12.727710304+05:30","level":"INFO","msg":"stream: closed","id":"nofrfd3c"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-16T22:57:05.840405965+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_225705-ynfaynbh/logs/debug-core.log"}
+{"time":"2025-03-16T22:57:06.061728343+05:30","level":"INFO","msg":"created new stream","id":"ynfaynbh"}
+{"time":"2025-03-16T22:57:06.061787552+05:30","level":"INFO","msg":"stream: started","id":"ynfaynbh"}
+{"time":"2025-03-16T22:57:06.061860061+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ynfaynbh"}
+{"time":"2025-03-16T22:57:06.061892021+05:30","level":"INFO","msg":"handler: started","stream_id":"ynfaynbh"}
+{"time":"2025-03-16T22:57:06.06194289+05:30","level":"INFO","msg":"sender: started","stream_id":"ynfaynbh"}
+{"time":"2025-03-16T22:57:06.403475333+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T22:57:06.738335904+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T22:57:06.738905146+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T22:57:07.70463699+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-metadata.json","runtime_seconds":0.991785061,"progress":"2.5KB/2.5KB"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_65989982ca9140b3494a.png","runtime_seconds":0.325056315,"progress":"523B/523B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_c994f021ba36204ca3c1.png","runtime_seconds":0.325040315,"progress":"590B/590B"},{"desc":"uploading output.log","runtime_seconds":0.325034955},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_7f9147937f711e4ba16e.png","runtime_seconds":0.325025726,"progress":"560B/560B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_cd8689e0f2a035303171.png","runtime_seconds":0.325021306,"progress":"609B/609B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_352ec8bcbb7f793c3857.png","runtime_seconds":0.325016216,"progress":"503B/503B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_c5a7eaa6a52ac0e794bb.png","runtime_seconds":0.325012506,"progress":"631B/631B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_4d144877c9093c197264.png","runtime_seconds":0.325006236,"progress":"374B/374B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_f9ae28233f32bf80214f.png","runtime_seconds":0.325000616,"progress":"681B/681B"}],"total_operations":14}}
+{"time":"2025-03-16T22:57:08.755647403+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T22:57:09.07453406+05:30","level":"INFO","msg":"stream: closing","id":"ynfaynbh"}
+{"time":"2025-03-16T22:57:09.07456313+05:30","level":"INFO","msg":"handler: closed","stream_id":"ynfaynbh"}
+{"time":"2025-03-16T22:57:09.074574079+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ynfaynbh"}
+{"time":"2025-03-16T22:57:09.074590779+05:30","level":"INFO","msg":"sender: closed","stream_id":"ynfaynbh"}
+{"time":"2025-03-16T22:57:09.074655498+05:30","level":"INFO","msg":"stream: closed","id":"ynfaynbh"}

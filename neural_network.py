@@ -6,7 +6,6 @@ from the_losses import Losses
 from the_optimizer import Optimizer
 from the_data import one_hot_encode
 from wandb_logger import WandbLogger
-from calcc import accuracy
 
 class NeuralNetwork:
     def __init__(self, **kwargs):
@@ -156,12 +155,6 @@ class NeuralNetwork:
 
                 train_cross_entropy_loss += cross_entropy_loss
                 train_squared_error_loss += squared_error_loss
-
-                # Compute activations for backward pass
-                # activations, _ = self.forward(x_batch)      # commnting cos already computed
-                # y_batch_one_hot = one_hot_encode(y_batch, num_classes=10)
-                # grads = self.backward(activations, y_batch_one_hot, y_pred)
-                # self.optimizer.update(grads)
 
                 # Training accuracy
                 predicted_labels = np.argmax(y_pred, axis=1)

@@ -1,0 +1,16 @@
+{"time":"2025-03-17T00:18:22.031382769+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_001821-j9iqn5le/logs/debug-core.log"}
+{"time":"2025-03-17T00:18:22.245411856+05:30","level":"INFO","msg":"created new stream","id":"j9iqn5le"}
+{"time":"2025-03-17T00:18:22.245453666+05:30","level":"INFO","msg":"stream: started","id":"j9iqn5le"}
+{"time":"2025-03-17T00:18:22.245512796+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"j9iqn5le"}
+{"time":"2025-03-17T00:18:22.245532826+05:30","level":"INFO","msg":"handler: started","stream_id":"j9iqn5le"}
+{"time":"2025-03-17T00:18:22.245554306+05:30","level":"INFO","msg":"sender: started","stream_id":"j9iqn5le"}
+{"time":"2025-03-17T00:18:22.544541611+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T00:18:30.235436436+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T00:18:30.236185861+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T00:18:31.238692215+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-j9iqn5le-LossComparison_table","runtime_seconds":4.299441325},{"desc":"uploading artifact run-j9iqn5le-LossComparison_table","runtime_seconds":2.787093384},{"desc":"uploading artifact run-j9iqn5le-LossComparison_table","runtime_seconds":1.57746306},{"desc":"uploading artifact run-j9iqn5le-confusion_matrix_table","runtime_seconds":1.009643738},{"desc":"uploading media/table/confusion_matrix_table_12_719160fa3dcf1181893c.table.json","runtime_seconds":0.69733274,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.6973252},{"desc":"uploading wandb-summary.json","runtime_seconds":0.69732165,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.385029402,"progress":"3.5KB/3.5KB"}],"total_operations":8}}
+{"time":"2025-03-17T00:18:39.26380058+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T00:18:39.541682915+05:30","level":"INFO","msg":"stream: closing","id":"j9iqn5le"}
+{"time":"2025-03-17T00:18:39.541696865+05:30","level":"INFO","msg":"handler: closed","stream_id":"j9iqn5le"}
+{"time":"2025-03-17T00:18:39.541707705+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"j9iqn5le"}
+{"time":"2025-03-17T00:18:39.541784536+05:30","level":"INFO","msg":"sender: closed","stream_id":"j9iqn5le"}
+{"time":"2025-03-17T00:18:39.541795496+05:30","level":"INFO","msg":"stream: closed","id":"j9iqn5le"}

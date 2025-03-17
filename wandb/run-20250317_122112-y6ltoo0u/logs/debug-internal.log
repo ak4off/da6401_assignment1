@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:21:12.939562423+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_122112-y6ltoo0u/logs/debug-core.log"}
+{"time":"2025-03-17T12:21:13.15441476+05:30","level":"INFO","msg":"created new stream","id":"y6ltoo0u"}
+{"time":"2025-03-17T12:21:13.154466089+05:30","level":"INFO","msg":"stream: started","id":"y6ltoo0u"}
+{"time":"2025-03-17T12:21:13.154525588+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"y6ltoo0u"}
+{"time":"2025-03-17T12:21:13.154535578+05:30","level":"INFO","msg":"handler: started","stream_id":"y6ltoo0u"}
+{"time":"2025-03-17T12:21:13.154680875+05:30","level":"INFO","msg":"sender: started","stream_id":"y6ltoo0u"}
+{"time":"2025-03-17T12:21:13.508568064+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:31:22.060045766+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:31:22.060878555+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:31:23.065070276+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-y6ltoo0u-LossComparison_table","runtime_seconds":1.599770152},{"desc":"uploading artifact run-y6ltoo0u-confusion_matrix_table","runtime_seconds":1.010055029}],"total_operations":2}}
+{"time":"2025-03-17T12:31:25.285785636+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:31:25.601383359+05:30","level":"INFO","msg":"stream: closing","id":"y6ltoo0u"}
+{"time":"2025-03-17T12:31:25.601408729+05:30","level":"INFO","msg":"handler: closed","stream_id":"y6ltoo0u"}
+{"time":"2025-03-17T12:31:25.601424989+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"y6ltoo0u"}
+{"time":"2025-03-17T12:31:25.601479678+05:30","level":"INFO","msg":"sender: closed","stream_id":"y6ltoo0u"}
+{"time":"2025-03-17T12:31:25.601530467+05:30","level":"INFO","msg":"stream: closed","id":"y6ltoo0u"}

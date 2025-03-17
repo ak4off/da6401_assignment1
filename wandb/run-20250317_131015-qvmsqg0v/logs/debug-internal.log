@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:10:15.380569998+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_131015-qvmsqg0v/logs/debug-core.log"}
+{"time":"2025-03-17T13:10:15.597800105+05:30","level":"INFO","msg":"created new stream","id":"qvmsqg0v"}
+{"time":"2025-03-17T13:10:15.597865264+05:30","level":"INFO","msg":"stream: started","id":"qvmsqg0v"}
+{"time":"2025-03-17T13:10:15.597919384+05:30","level":"INFO","msg":"sender: started","stream_id":"qvmsqg0v"}
+{"time":"2025-03-17T13:10:15.597912734+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qvmsqg0v"}
+{"time":"2025-03-17T13:10:15.597987943+05:30","level":"INFO","msg":"handler: started","stream_id":"qvmsqg0v"}
+{"time":"2025-03-17T13:10:15.928466163+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:10:16.260965336+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:10:16.262480563+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:10:17.223391057+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/Fashion_MNIST_Samples_0_7f9147937f711e4ba16e.png","runtime_seconds":0.314793135,"progress":"560B/560B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_ba8afe5093296b9da95d.png","runtime_seconds":0.314776846,"progress":"424B/424B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_65989982ca9140b3494a.png","runtime_seconds":0.314770386,"progress":"523B/523B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_352ec8bcbb7f793c3857.png","runtime_seconds":0.314766206,"progress":"503B/503B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_f9ae28233f32bf80214f.png","runtime_seconds":0.314761446,"progress":"681B/681B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_adf48a208b1e9f1a3b47.png","runtime_seconds":0.314748516,"progress":"574B/574B"},{"desc":"uploading output.log","runtime_seconds":0.314741026},{"desc":"uploading wandb-summary.json","runtime_seconds":0.314734096,"progress":"983B/983B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_cd8689e0f2a035303171.png","runtime_seconds":0.314730646,"progress":"609B/609B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_c994f021ba36204ca3c1.png","runtime_seconds":0.314724906,"progress":"590B/590B"}],"total_operations":12}}
+{"time":"2025-03-17T13:10:17.644035719+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:10:17.96155105+05:30","level":"INFO","msg":"stream: closing","id":"qvmsqg0v"}
+{"time":"2025-03-17T13:10:17.96157423+05:30","level":"INFO","msg":"handler: closed","stream_id":"qvmsqg0v"}
+{"time":"2025-03-17T13:10:17.96158643+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qvmsqg0v"}
+{"time":"2025-03-17T13:10:17.96161515+05:30","level":"INFO","msg":"sender: closed","stream_id":"qvmsqg0v"}
+{"time":"2025-03-17T13:10:17.961695839+05:30","level":"INFO","msg":"stream: closed","id":"qvmsqg0v"}

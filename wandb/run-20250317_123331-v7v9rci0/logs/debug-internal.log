@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:33:31.186244406+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_123331-v7v9rci0/logs/debug-core.log"}
+{"time":"2025-03-17T12:33:31.40288524+05:30","level":"INFO","msg":"created new stream","id":"v7v9rci0"}
+{"time":"2025-03-17T12:33:31.40291783+05:30","level":"INFO","msg":"stream: started","id":"v7v9rci0"}
+{"time":"2025-03-17T12:33:31.404241971+05:30","level":"INFO","msg":"handler: started","stream_id":"v7v9rci0"}
+{"time":"2025-03-17T12:33:31.40435651+05:30","level":"INFO","msg":"sender: started","stream_id":"v7v9rci0"}
+{"time":"2025-03-17T12:33:31.40436157+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"v7v9rci0"}
+{"time":"2025-03-17T12:33:31.753617821+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:37:19.551454656+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:37:19.552256671+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:37:20.553022193+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":45.653184186},{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":43.116617719},{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":40.997879789},{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":38.812650339},{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":36.758088965},{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":34.459503557},{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":32.285139367},{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":30.104707158},{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":27.880467447},{"desc":"uploading artifact run-v7v9rci0-LossComparison_table","runtime_seconds":25.772321384}],"total_operations":23}}
+{"time":"2025-03-17T12:38:18.024779857+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:38:18.304949999+05:30","level":"INFO","msg":"stream: closing","id":"v7v9rci0"}
+{"time":"2025-03-17T12:38:18.304973049+05:30","level":"INFO","msg":"handler: closed","stream_id":"v7v9rci0"}
+{"time":"2025-03-17T12:38:18.30499672+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"v7v9rci0"}
+{"time":"2025-03-17T12:38:18.305079081+05:30","level":"INFO","msg":"sender: closed","stream_id":"v7v9rci0"}
+{"time":"2025-03-17T12:38:18.305093481+05:30","level":"INFO","msg":"stream: closed","id":"v7v9rci0"}

@@ -1,0 +1,34 @@
+Epoch [1/10]
+    Train Loss: 2.3026, Train Accuracy: 0.1002
+    Val Loss: 1.1964, Val Accuracy: 0.0947
+Epoch [2/10]
+    Train Loss: 2.3027, Train Accuracy: 0.0990
+    Val Loss: 1.1964, Val Accuracy: 0.0947
+Epoch [3/10]
+    Train Loss: 2.3027, Train Accuracy: 0.0986
+    Val Loss: 1.1964, Val Accuracy: 0.0963
+Epoch [4/10]
+    Train Loss: 2.3026, Train Accuracy: 0.0986
+    Val Loss: 1.1964, Val Accuracy: 0.0943
+Epoch [5/10]
+    Train Loss: 2.3026, Train Accuracy: 0.0998
+    Val Loss: 1.1964, Val Accuracy: 0.0963
+Epoch [6/10]
+    Train Loss: 2.3026, Train Accuracy: 0.0998
+    Val Loss: 1.1964, Val Accuracy: 0.0947
+Epoch [7/10]
+    Train Loss: 2.3026, Train Accuracy: 0.0994
+    Val Loss: 1.1964, Val Accuracy: 0.0963
+Epoch [8/10]
+    Train Loss: 2.3027, Train Accuracy: 0.0988
+    Val Loss: 1.1964, Val Accuracy: 0.0963
+Epoch [9/10]
+    Train Loss: 2.3027, Train Accuracy: 0.0987
+    Val Loss: 1.1964, Val Accuracy: 0.0963
+Epoch [10/10]
+    Train Loss: 2.3027, Train Accuracy: 0.0986
+    Val Loss: 1.1964, Val Accuracy: 0.0963
+
+ Running Test Evaluation...
+Test Accuracy: 0.0963, Test Loss: 0.0900
+logging confusion matrix from test set

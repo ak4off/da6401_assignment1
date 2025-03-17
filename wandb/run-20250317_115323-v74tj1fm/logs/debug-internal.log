@@ -1,0 +1,16 @@
+{"time":"2025-03-17T11:53:23.738690664+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_115323-v74tj1fm/logs/debug-core.log"}
+{"time":"2025-03-17T11:53:23.954422701+05:30","level":"INFO","msg":"created new stream","id":"v74tj1fm"}
+{"time":"2025-03-17T11:53:23.954460611+05:30","level":"INFO","msg":"stream: started","id":"v74tj1fm"}
+{"time":"2025-03-17T11:53:23.954480381+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"v74tj1fm"}
+{"time":"2025-03-17T11:53:23.954533311+05:30","level":"INFO","msg":"sender: started","stream_id":"v74tj1fm"}
+{"time":"2025-03-17T11:53:23.954520441+05:30","level":"INFO","msg":"handler: started","stream_id":"v74tj1fm"}
+{"time":"2025-03-17T11:53:24.266510927+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T11:53:34.169123786+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T11:53:34.16990502+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T11:53:35.132309717+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-v74tj1fm-LossComparison_table","runtime_seconds":3.224816711,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.068158386,"progress":"1.1KB/1.1KB"}]},{"desc":"uploading artifact run-v74tj1fm-LossComparison_table","runtime_seconds":1.321529838},{"desc":"uploading artifact run-v74tj1fm-confusion_matrix_table","runtime_seconds":1.004915001},{"desc":"uploading config.yaml","runtime_seconds":0.372944375,"progress":"3.5KB/3.5KB"}],"total_operations":4}}
+{"time":"2025-03-17T11:53:39.325775413+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T11:53:39.62348011+05:30","level":"INFO","msg":"stream: closing","id":"v74tj1fm"}
+{"time":"2025-03-17T11:53:39.623506099+05:30","level":"INFO","msg":"handler: closed","stream_id":"v74tj1fm"}
+{"time":"2025-03-17T11:53:39.623520649+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"v74tj1fm"}
+{"time":"2025-03-17T11:53:39.623554789+05:30","level":"INFO","msg":"sender: closed","stream_id":"v74tj1fm"}
+{"time":"2025-03-17T11:53:39.623652288+05:30","level":"INFO","msg":"stream: closed","id":"v74tj1fm"}

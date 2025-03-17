@@ -1,0 +1,16 @@
+{"time":"2025-03-17T00:18:47.06782238+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_001847-rup05zzp/logs/debug-core.log"}
+{"time":"2025-03-17T00:18:47.282626604+05:30","level":"INFO","msg":"created new stream","id":"rup05zzp"}
+{"time":"2025-03-17T00:18:47.282669254+05:30","level":"INFO","msg":"stream: started","id":"rup05zzp"}
+{"time":"2025-03-17T00:18:47.282710144+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rup05zzp"}
+{"time":"2025-03-17T00:18:47.282756574+05:30","level":"INFO","msg":"sender: started","stream_id":"rup05zzp"}
+{"time":"2025-03-17T00:18:47.282812975+05:30","level":"INFO","msg":"handler: started","stream_id":"rup05zzp"}
+{"time":"2025-03-17T00:18:47.61454966+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T00:23:29.850058873+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T00:23:29.850652684+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T00:23:30.853532801+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rup05zzp-LossComparison_table","runtime_seconds":1.626097573},{"desc":"uploading artifact run-rup05zzp-confusion_matrix_table","runtime_seconds":1.009130217},{"desc":"uploading config.yaml","runtime_seconds":0.417995757,"progress":"3.5KB/3.5KB"}],"total_operations":3}}
+{"time":"2025-03-17T00:23:33.077146617+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T00:23:33.399896803+05:30","level":"INFO","msg":"stream: closing","id":"rup05zzp"}
+{"time":"2025-03-17T00:23:33.399917953+05:30","level":"INFO","msg":"handler: closed","stream_id":"rup05zzp"}
+{"time":"2025-03-17T00:23:33.399928583+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rup05zzp"}
+{"time":"2025-03-17T00:23:33.399942263+05:30","level":"INFO","msg":"sender: closed","stream_id":"rup05zzp"}
+{"time":"2025-03-17T00:23:33.400016033+05:30","level":"INFO","msg":"stream: closed","id":"rup05zzp"}

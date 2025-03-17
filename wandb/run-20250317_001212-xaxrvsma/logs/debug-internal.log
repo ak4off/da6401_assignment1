@@ -1,0 +1,16 @@
+{"time":"2025-03-17T00:12:12.685292875+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_001212-xaxrvsma/logs/debug-core.log"}
+{"time":"2025-03-17T00:12:12.898594902+05:30","level":"INFO","msg":"created new stream","id":"xaxrvsma"}
+{"time":"2025-03-17T00:12:12.898624283+05:30","level":"INFO","msg":"stream: started","id":"xaxrvsma"}
+{"time":"2025-03-17T00:12:12.898639613+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xaxrvsma"}
+{"time":"2025-03-17T00:12:12.898666264+05:30","level":"INFO","msg":"sender: started","stream_id":"xaxrvsma"}
+{"time":"2025-03-17T00:12:12.898696874+05:30","level":"INFO","msg":"handler: started","stream_id":"xaxrvsma"}
+{"time":"2025-03-17T00:12:13.191361883+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T00:16:12.019951286+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T00:16:12.020697103+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T00:16:13.021807119+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":33.444725373},{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":30.986502452},{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":28.914256695},{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":26.721445672},{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":24.451944522},{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":22.199947039},{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":19.777782491},{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":17.332503698},{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":14.771746819},{"desc":"uploading artifact run-xaxrvsma-LossComparison_table","runtime_seconds":12.397351239}],"total_operations":14}}
+{"time":"2025-03-17T00:16:46.382876294+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T00:16:46.679984563+05:30","level":"INFO","msg":"stream: closing","id":"xaxrvsma"}
+{"time":"2025-03-17T00:16:46.680006963+05:30","level":"INFO","msg":"handler: closed","stream_id":"xaxrvsma"}
+{"time":"2025-03-17T00:16:46.680025404+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xaxrvsma"}
+{"time":"2025-03-17T00:16:46.680086654+05:30","level":"INFO","msg":"sender: closed","stream_id":"xaxrvsma"}
+{"time":"2025-03-17T00:16:46.680117854+05:30","level":"INFO","msg":"stream: closed","id":"xaxrvsma"}

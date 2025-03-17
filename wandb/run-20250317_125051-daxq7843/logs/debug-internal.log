@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:50:51.263275525+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_125051-daxq7843/logs/debug-core.log"}
+{"time":"2025-03-17T12:50:51.481198448+05:30","level":"INFO","msg":"created new stream","id":"daxq7843"}
+{"time":"2025-03-17T12:50:51.481271558+05:30","level":"INFO","msg":"stream: started","id":"daxq7843"}
+{"time":"2025-03-17T12:50:51.481294598+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"daxq7843"}
+{"time":"2025-03-17T12:50:51.481394238+05:30","level":"INFO","msg":"handler: started","stream_id":"daxq7843"}
+{"time":"2025-03-17T12:50:51.481410308+05:30","level":"INFO","msg":"sender: started","stream_id":"daxq7843"}
+{"time":"2025-03-17T12:50:51.797669015+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:51:27.770292242+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:51:27.771467167+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:51:28.771946776+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-daxq7843-LossComparison_table","runtime_seconds":6.209166333},{"desc":"uploading artifact run-daxq7843-LossComparison_table","runtime_seconds":3.942570872},{"desc":"uploading artifact run-daxq7843-LossComparison_table","runtime_seconds":1.560312275},{"desc":"uploading artifact run-daxq7843-confusion_matrix_table","runtime_seconds":1.006354166},{"desc":"uploading config.yaml","runtime_seconds":0.404194343,"progress":"3.5KB/3.5KB"}],"total_operations":5}}
+{"time":"2025-03-17T12:51:35.500772222+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:51:35.797082426+05:30","level":"INFO","msg":"stream: closing","id":"daxq7843"}
+{"time":"2025-03-17T12:51:35.797100405+05:30","level":"INFO","msg":"handler: closed","stream_id":"daxq7843"}
+{"time":"2025-03-17T12:51:35.797111445+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"daxq7843"}
+{"time":"2025-03-17T12:51:35.797283205+05:30","level":"INFO","msg":"sender: closed","stream_id":"daxq7843"}
+{"time":"2025-03-17T12:51:35.797456194+05:30","level":"INFO","msg":"stream: closed","id":"daxq7843"}

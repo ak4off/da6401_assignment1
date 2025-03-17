@@ -1,0 +1,16 @@
+{"time":"2025-03-16T23:28:26.271970589+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_232826-x7iabbim/logs/debug-core.log"}
+{"time":"2025-03-16T23:28:26.493435159+05:30","level":"INFO","msg":"created new stream","id":"x7iabbim"}
+{"time":"2025-03-16T23:28:26.493510238+05:30","level":"INFO","msg":"stream: started","id":"x7iabbim"}
+{"time":"2025-03-16T23:28:26.493548408+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"x7iabbim"}
+{"time":"2025-03-16T23:28:26.493577327+05:30","level":"INFO","msg":"sender: started","stream_id":"x7iabbim"}
+{"time":"2025-03-16T23:28:26.493589087+05:30","level":"INFO","msg":"handler: started","stream_id":"x7iabbim"}
+{"time":"2025-03-16T23:28:26.794970313+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T23:29:10.807133916+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T23:29:10.807759849+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T23:29:11.808810672+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-x7iabbim-LossComparison_table","runtime_seconds":1.5504843419999998},{"desc":"uploading artifact run-x7iabbim-confusion_matrix_table","runtime_seconds":1.004952842},{"desc":"uploading media/table/confusion_matrix_table_12_07feac2a031587fc066e.table.json","runtime_seconds":0.700186477,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.700175928},{"desc":"uploading wandb-summary.json","runtime_seconds":0.700172158,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.390691173,"progress":"3.5KB/3.5KB"}],"total_operations":6}}
+{"time":"2025-03-16T23:29:14.268425797+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T23:29:14.539687082+05:30","level":"INFO","msg":"stream: closing","id":"x7iabbim"}
+{"time":"2025-03-16T23:29:14.539715112+05:30","level":"INFO","msg":"handler: closed","stream_id":"x7iabbim"}
+{"time":"2025-03-16T23:29:14.539731941+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"x7iabbim"}
+{"time":"2025-03-16T23:29:14.539771721+05:30","level":"INFO","msg":"sender: closed","stream_id":"x7iabbim"}
+{"time":"2025-03-16T23:29:14.53989664+05:30","level":"INFO","msg":"stream: closed","id":"x7iabbim"}

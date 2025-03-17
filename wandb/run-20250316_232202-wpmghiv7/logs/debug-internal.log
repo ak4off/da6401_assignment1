@@ -1,0 +1,16 @@
+{"time":"2025-03-16T23:22:02.430835872+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_232202-wpmghiv7/logs/debug-core.log"}
+{"time":"2025-03-16T23:22:02.643985397+05:30","level":"INFO","msg":"created new stream","id":"wpmghiv7"}
+{"time":"2025-03-16T23:22:02.644036256+05:30","level":"INFO","msg":"stream: started","id":"wpmghiv7"}
+{"time":"2025-03-16T23:22:02.644056086+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wpmghiv7"}
+{"time":"2025-03-16T23:22:02.644109585+05:30","level":"INFO","msg":"sender: started","stream_id":"wpmghiv7"}
+{"time":"2025-03-16T23:22:02.644105765+05:30","level":"INFO","msg":"handler: started","stream_id":"wpmghiv7"}
+{"time":"2025-03-16T23:22:02.952621111+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T23:27:17.480217357+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T23:27:17.481006028+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T23:27:18.48242008+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-wpmghiv7-LossComparison_table","runtime_seconds":1.410887576,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.212416433,"progress":"16.8KB/16.8KB"}]},{"desc":"uploading artifact run-wpmghiv7-confusion_matrix_table","runtime_seconds":1.005592298},{"desc":"uploading config.yaml","runtime_seconds":0.353421284,"progress":"3.5KB/3.5KB"}],"total_operations":3}}
+{"time":"2025-03-16T23:27:20.019709815+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T23:27:20.314579904+05:30","level":"INFO","msg":"stream: closing","id":"wpmghiv7"}
+{"time":"2025-03-16T23:27:20.314607304+05:30","level":"INFO","msg":"handler: closed","stream_id":"wpmghiv7"}
+{"time":"2025-03-16T23:27:20.314623593+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wpmghiv7"}
+{"time":"2025-03-16T23:27:20.314719272+05:30","level":"INFO","msg":"sender: closed","stream_id":"wpmghiv7"}
+{"time":"2025-03-16T23:27:20.314757692+05:30","level":"INFO","msg":"stream: closed","id":"wpmghiv7"}

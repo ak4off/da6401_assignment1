@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:30:25.940444954+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_123025-russqtc7/logs/debug-core.log"}
+{"time":"2025-03-17T12:30:26.157297768+05:30","level":"INFO","msg":"created new stream","id":"russqtc7"}
+{"time":"2025-03-17T12:30:26.157324698+05:30","level":"INFO","msg":"stream: started","id":"russqtc7"}
+{"time":"2025-03-17T12:30:26.157350838+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"russqtc7"}
+{"time":"2025-03-17T12:30:26.157368897+05:30","level":"INFO","msg":"handler: started","stream_id":"russqtc7"}
+{"time":"2025-03-17T12:30:26.157372207+05:30","level":"INFO","msg":"sender: started","stream_id":"russqtc7"}
+{"time":"2025-03-17T12:30:26.470205785+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:31:40.340094829+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:31:40.341228983+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:31:41.346385292+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-russqtc7-LossComparison_table","runtime_seconds":1.578954429},{"desc":"uploading artifact run-russqtc7-confusion_matrix_table","runtime_seconds":1.011924585},{"desc":"uploading config.yaml","runtime_seconds":0.401593024,"progress":"3.5KB/3.5KB"}],"total_operations":3}}
+{"time":"2025-03-17T12:31:43.513667928+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:31:43.790005702+05:30","level":"INFO","msg":"stream: closing","id":"russqtc7"}
+{"time":"2025-03-17T12:31:43.790040951+05:30","level":"INFO","msg":"handler: closed","stream_id":"russqtc7"}
+{"time":"2025-03-17T12:31:43.790058211+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"russqtc7"}
+{"time":"2025-03-17T12:31:43.790067781+05:30","level":"INFO","msg":"sender: closed","stream_id":"russqtc7"}
+{"time":"2025-03-17T12:31:43.7901319+05:30","level":"INFO","msg":"stream: closed","id":"russqtc7"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-16T18:24:03.246465346+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_182403-j3c20jyz/logs/debug-core.log"}
+{"time":"2025-03-16T18:24:03.467026972+05:30","level":"INFO","msg":"created new stream","id":"j3c20jyz"}
+{"time":"2025-03-16T18:24:03.467082942+05:30","level":"INFO","msg":"stream: started","id":"j3c20jyz"}
+{"time":"2025-03-16T18:24:03.467149751+05:30","level":"INFO","msg":"sender: started","stream_id":"j3c20jyz"}
+{"time":"2025-03-16T18:24:03.467142351+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"j3c20jyz"}
+{"time":"2025-03-16T18:24:03.467180161+05:30","level":"INFO","msg":"handler: started","stream_id":"j3c20jyz"}
+{"time":"2025-03-16T18:24:03.765248434+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T18:25:03.950129891+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T18:25:03.950671797+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T18:25:04.914470476+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-j3c20jyz-LossComparison_table","runtime_seconds":1.338329156},{"desc":"uploading artifact run-j3c20jyz-confusion_matrix_table","runtime_seconds":0.738434541},{"desc":"uploading media/table/confusion_matrix_table_32_aca3f274a70c8340b4f1.table.json","runtime_seconds":0.414283457,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.414266917,"progress":"1.6KB/1.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.414258197,"progress":"1.8KB/1.8KB"},{"desc":"uploading history steps 22-33, summary, console lines 30-48","runtime_seconds":0.20194596}],"total_operations":6}}
+{"time":"2025-03-16T18:25:08.274965367+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T18:25:08.580994777+05:30","level":"INFO","msg":"stream: closing","id":"j3c20jyz"}
+{"time":"2025-03-16T18:25:08.581017667+05:30","level":"INFO","msg":"handler: closed","stream_id":"j3c20jyz"}
+{"time":"2025-03-16T18:25:08.581032517+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"j3c20jyz"}
+{"time":"2025-03-16T18:25:08.581050547+05:30","level":"INFO","msg":"sender: closed","stream_id":"j3c20jyz"}
+{"time":"2025-03-16T18:25:08.581108496+05:30","level":"INFO","msg":"stream: closed","id":"j3c20jyz"}

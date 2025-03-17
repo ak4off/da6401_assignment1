@@ -1,0 +1,16 @@
+{"time":"2025-03-17T00:17:01.756234944+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_001701-glfthfiw/logs/debug-core.log"}
+{"time":"2025-03-17T00:17:01.972385664+05:30","level":"INFO","msg":"created new stream","id":"glfthfiw"}
+{"time":"2025-03-17T00:17:01.972418825+05:30","level":"INFO","msg":"stream: started","id":"glfthfiw"}
+{"time":"2025-03-17T00:17:01.972454595+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"glfthfiw"}
+{"time":"2025-03-17T00:17:01.972461705+05:30","level":"INFO","msg":"sender: started","stream_id":"glfthfiw"}
+{"time":"2025-03-17T00:17:01.972468485+05:30","level":"INFO","msg":"handler: started","stream_id":"glfthfiw"}
+{"time":"2025-03-17T00:17:02.370800621+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T00:17:29.793400774+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T00:17:29.79421108+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T00:17:30.796124893+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-glfthfiw-LossComparison_table","runtime_seconds":1.6772722899999999},{"desc":"uploading artifact run-glfthfiw-confusion_matrix_table","runtime_seconds":1.010567838},{"desc":"uploading media/table/confusion_matrix_table_22_869ee30d6b515840886f.table.json","runtime_seconds":0.697204494,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.697194234},{"desc":"uploading config.yaml","runtime_seconds":0.39791253,"progress":"3.5KB/3.5KB"}],"total_operations":5}}
+{"time":"2025-03-17T00:17:33.661944912+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T00:17:33.941359059+05:30","level":"INFO","msg":"stream: closing","id":"glfthfiw"}
+{"time":"2025-03-17T00:17:33.941392759+05:30","level":"INFO","msg":"handler: closed","stream_id":"glfthfiw"}
+{"time":"2025-03-17T00:17:33.941407949+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"glfthfiw"}
+{"time":"2025-03-17T00:17:33.94148147+05:30","level":"INFO","msg":"sender: closed","stream_id":"glfthfiw"}
+{"time":"2025-03-17T00:17:33.94149528+05:30","level":"INFO","msg":"stream: closed","id":"glfthfiw"}

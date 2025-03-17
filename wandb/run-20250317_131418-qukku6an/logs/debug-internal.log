@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:14:18.936064577+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_131418-qukku6an/logs/debug-core.log"}
+{"time":"2025-03-17T13:14:19.149841351+05:30","level":"INFO","msg":"created new stream","id":"qukku6an"}
+{"time":"2025-03-17T13:14:19.149895151+05:30","level":"INFO","msg":"stream: started","id":"qukku6an"}
+{"time":"2025-03-17T13:14:19.149910261+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qukku6an"}
+{"time":"2025-03-17T13:14:19.149953352+05:30","level":"INFO","msg":"handler: started","stream_id":"qukku6an"}
+{"time":"2025-03-17T13:14:19.149996382+05:30","level":"INFO","msg":"sender: started","stream_id":"qukku6an"}
+{"time":"2025-03-17T13:14:19.460081175+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:15:25.214930714+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:15:25.215584417+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:15:26.216543442+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-qukku6an-LossComparison_table","runtime_seconds":11.052962583},{"desc":"uploading artifact run-qukku6an-LossComparison_table","runtime_seconds":9.156679998},{"desc":"uploading artifact run-qukku6an-LossComparison_table","runtime_seconds":7.461836778},{"desc":"uploading artifact run-qukku6an-LossComparison_table","runtime_seconds":5.998981079},{"desc":"uploading artifact run-qukku6an-LossComparison_table","runtime_seconds":4.171222935},{"desc":"uploading artifact run-qukku6an-LossComparison_table","runtime_seconds":2.736581733},{"desc":"uploading artifact run-qukku6an-LossComparison_table","runtime_seconds":1.337902152},{"desc":"uploading artifact run-qukku6an-confusion_matrix_table","runtime_seconds":1.00454541}],"total_operations":8}}
+{"time":"2025-03-17T13:15:43.204180481+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:15:43.493611714+05:30","level":"INFO","msg":"stream: closing","id":"qukku6an"}
+{"time":"2025-03-17T13:15:43.493636545+05:30","level":"INFO","msg":"handler: closed","stream_id":"qukku6an"}
+{"time":"2025-03-17T13:15:43.493648225+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qukku6an"}
+{"time":"2025-03-17T13:15:43.493658395+05:30","level":"INFO","msg":"sender: closed","stream_id":"qukku6an"}
+{"time":"2025-03-17T13:15:43.493726735+05:30","level":"INFO","msg":"stream: closed","id":"qukku6an"}

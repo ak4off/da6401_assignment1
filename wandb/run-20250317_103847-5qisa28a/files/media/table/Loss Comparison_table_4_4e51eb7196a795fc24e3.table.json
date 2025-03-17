@@ -1,0 +1,1 @@
+{"columns": ["step", "lineKey", "lineVal"], "data": [[1, "Train CE Loss", 2.3026666555549276], [2, "Train CE Loss", 4.605340935964574], [1, "Train SE Loss", 0.09000163094277215], [2, "Train SE Loss", 0.1800034153363963], [1, "Val CE Loss", 2.3027900089238402], [2, "Val CE Loss", 2.302692205515057], [1, "Val SE Loss", 0.09000408216089734], [2, "Val SE Loss", 0.0900021329609148]]}

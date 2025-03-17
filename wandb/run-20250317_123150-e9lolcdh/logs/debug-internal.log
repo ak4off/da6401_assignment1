@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:31:50.946697246+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_123150-e9lolcdh/logs/debug-core.log"}
+{"time":"2025-03-17T12:31:51.16746775+05:30","level":"INFO","msg":"created new stream","id":"e9lolcdh"}
+{"time":"2025-03-17T12:31:51.167509849+05:30","level":"INFO","msg":"stream: started","id":"e9lolcdh"}
+{"time":"2025-03-17T12:31:51.167545239+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"e9lolcdh"}
+{"time":"2025-03-17T12:31:51.167579938+05:30","level":"INFO","msg":"sender: started","stream_id":"e9lolcdh"}
+{"time":"2025-03-17T12:31:51.167560669+05:30","level":"INFO","msg":"handler: started","stream_id":"e9lolcdh"}
+{"time":"2025-03-17T12:31:51.489021199+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:32:29.15735219+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:32:29.158066491+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:32:30.159759291+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-e9lolcdh-LossComparison_table","runtime_seconds":7.592230681},{"desc":"uploading artifact run-e9lolcdh-LossComparison_table","runtime_seconds":4.676645843},{"desc":"uploading artifact run-e9lolcdh-LossComparison_table","runtime_seconds":1.4021952},{"desc":"uploading artifact run-e9lolcdh-confusion_matrix_table","runtime_seconds":1.007213484},{"desc":"uploading media/table/confusion_matrix_table_32_efca8ec0912f5238a741.table.json","runtime_seconds":0.702509776,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.702508416},{"desc":"uploading wandb-summary.json","runtime_seconds":0.702504866,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.416286262,"progress":"3.5KB/3.5KB"}],"total_operations":8}}
+{"time":"2025-03-17T12:32:36.915147061+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:32:37.243666694+05:30","level":"INFO","msg":"stream: closing","id":"e9lolcdh"}
+{"time":"2025-03-17T12:32:37.243703153+05:30","level":"INFO","msg":"handler: closed","stream_id":"e9lolcdh"}
+{"time":"2025-03-17T12:32:37.243721093+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"e9lolcdh"}
+{"time":"2025-03-17T12:32:37.243744073+05:30","level":"INFO","msg":"sender: closed","stream_id":"e9lolcdh"}
+{"time":"2025-03-17T12:32:37.243844121+05:30","level":"INFO","msg":"stream: closed","id":"e9lolcdh"}

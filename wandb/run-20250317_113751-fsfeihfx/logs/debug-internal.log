@@ -1,0 +1,16 @@
+{"time":"2025-03-17T11:37:51.106871176+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_113751-fsfeihfx/logs/debug-core.log"}
+{"time":"2025-03-17T11:37:51.320706013+05:30","level":"INFO","msg":"created new stream","id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:51.320736493+05:30","level":"INFO","msg":"stream: started","id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:51.320780862+05:30","level":"INFO","msg":"handler: started","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:51.320811152+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:51.320827272+05:30","level":"INFO","msg":"sender: started","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:51.647498344+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T11:37:52.020343994+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T11:37:52.020999415+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T11:37:52.986227066+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/Fashion_MNIST_Samples_0_cd8689e0f2a035303171.png","runtime_seconds":0.256579248,"progress":"609B/609B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_c994f021ba36204ca3c1.png","runtime_seconds":0.256565238,"progress":"590B/590B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_352ec8bcbb7f793c3857.png","runtime_seconds":0.256560378,"progress":"503B/503B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_4d144877c9093c197264.png","runtime_seconds":0.256552488,"progress":"374B/374B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_f9ae28233f32bf80214f.png","runtime_seconds":0.256549268,"progress":"681B/681B"},{"desc":"uploading output.log","runtime_seconds":0.256543398},{"desc":"uploading wandb-summary.json","runtime_seconds":0.256538958,"progress":"983B/983B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_ba8afe5093296b9da95d.png","runtime_seconds":0.256534118,"progress":"424B/424B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_65989982ca9140b3494a.png","runtime_seconds":0.256528508,"progress":"523B/523B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_c5a7eaa6a52ac0e794bb.png","runtime_seconds":0.256525048,"progress":"631B/631B"}],"total_operations":12}}
+{"time":"2025-03-17T11:37:53.732688207+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T11:37:54.022916454+05:30","level":"INFO","msg":"stream: closing","id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:54.022935694+05:30","level":"INFO","msg":"handler: closed","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:54.022946964+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:54.022972283+05:30","level":"INFO","msg":"sender: closed","stream_id":"fsfeihfx"}
+{"time":"2025-03-17T11:37:54.023035552+05:30","level":"INFO","msg":"stream: closed","id":"fsfeihfx"}

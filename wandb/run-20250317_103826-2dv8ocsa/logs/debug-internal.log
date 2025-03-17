@@ -1,0 +1,16 @@
+{"time":"2025-03-17T10:38:26.158659769+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_103826-2dv8ocsa/logs/debug-core.log"}
+{"time":"2025-03-17T10:38:26.37702676+05:30","level":"INFO","msg":"created new stream","id":"2dv8ocsa"}
+{"time":"2025-03-17T10:38:26.37706903+05:30","level":"INFO","msg":"stream: started","id":"2dv8ocsa"}
+{"time":"2025-03-17T10:38:26.377154101+05:30","level":"INFO","msg":"handler: started","stream_id":"2dv8ocsa"}
+{"time":"2025-03-17T10:38:26.377152061+05:30","level":"INFO","msg":"sender: started","stream_id":"2dv8ocsa"}
+{"time":"2025-03-17T10:38:26.377128981+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2dv8ocsa"}
+{"time":"2025-03-17T10:38:26.677064568+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T10:38:34.466721811+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T10:38:34.467436665+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T10:38:35.469688852+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-2dv8ocsa-LossComparison_table","runtime_seconds":4.298123411},{"desc":"uploading artifact run-2dv8ocsa-LossComparison_table","runtime_seconds":2.813811637},{"desc":"uploading artifact run-2dv8ocsa-LossComparison_table","runtime_seconds":1.3352949060000001},{"desc":"uploading artifact run-2dv8ocsa-confusion_matrix_table","runtime_seconds":1.005815647},{"desc":"uploading config.yaml","runtime_seconds":0.383117324,"progress":"3.5KB/3.5KB"}],"total_operations":5}}
+{"time":"2025-03-17T10:38:41.419471184+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T10:38:41.720521143+05:30","level":"INFO","msg":"stream: closing","id":"2dv8ocsa"}
+{"time":"2025-03-17T10:38:41.720541673+05:30","level":"INFO","msg":"handler: closed","stream_id":"2dv8ocsa"}
+{"time":"2025-03-17T10:38:41.720551854+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2dv8ocsa"}
+{"time":"2025-03-17T10:38:41.720567134+05:30","level":"INFO","msg":"sender: closed","stream_id":"2dv8ocsa"}
+{"time":"2025-03-17T10:38:41.720637564+05:30","level":"INFO","msg":"stream: closed","id":"2dv8ocsa"}

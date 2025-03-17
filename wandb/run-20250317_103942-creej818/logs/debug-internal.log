@@ -1,0 +1,16 @@
+{"time":"2025-03-17T10:39:42.908064304+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_103942-creej818/logs/debug-core.log"}
+{"time":"2025-03-17T10:39:43.128117306+05:30","level":"INFO","msg":"created new stream","id":"creej818"}
+{"time":"2025-03-17T10:39:43.128212917+05:30","level":"INFO","msg":"stream: started","id":"creej818"}
+{"time":"2025-03-17T10:39:43.128269477+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"creej818"}
+{"time":"2025-03-17T10:39:43.128286007+05:30","level":"INFO","msg":"sender: started","stream_id":"creej818"}
+{"time":"2025-03-17T10:39:43.128329027+05:30","level":"INFO","msg":"handler: started","stream_id":"creej818"}
+{"time":"2025-03-17T10:39:43.465792319+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T10:39:43.824197008+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T10:39:43.824703051+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T10:39:44.789745963+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/Fashion_MNIST_Samples_0_352ec8bcbb7f793c3857.png","runtime_seconds":0.243278677,"progress":"503B/503B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_c5a7eaa6a52ac0e794bb.png","runtime_seconds":0.243258237,"progress":"631B/631B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_f9ae28233f32bf80214f.png","runtime_seconds":0.243252397,"progress":"681B/681B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.243247827,"progress":"983B/983B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_c994f021ba36204ca3c1.png","runtime_seconds":0.243240967,"progress":"590B/590B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_4d144877c9093c197264.png","runtime_seconds":0.243236627,"progress":"374B/374B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_adf48a208b1e9f1a3b47.png","runtime_seconds":0.243230247,"progress":"574B/574B"},{"desc":"uploading output.log","runtime_seconds":0.243227437},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_7f9147937f711e4ba16e.png","runtime_seconds":0.243221347,"progress":"560B/560B"},{"desc":"uploading media/images/Fashion_MNIST_Samples_0_ba8afe5093296b9da95d.png","runtime_seconds":0.243217967,"progress":"424B/424B"}],"total_operations":12}}
+{"time":"2025-03-17T10:39:45.197241605+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T10:39:45.508503926+05:30","level":"INFO","msg":"stream: closing","id":"creej818"}
+{"time":"2025-03-17T10:39:45.508528966+05:30","level":"INFO","msg":"handler: closed","stream_id":"creej818"}
+{"time":"2025-03-17T10:39:45.508539506+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"creej818"}
+{"time":"2025-03-17T10:39:45.508570826+05:30","level":"INFO","msg":"sender: closed","stream_id":"creej818"}
+{"time":"2025-03-17T10:39:45.508639596+05:30","level":"INFO","msg":"stream: closed","id":"creej818"}

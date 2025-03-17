@@ -1,0 +1,16 @@
+{"time":"2025-03-17T14:42:37.542251909+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_144237-vierpi2s/logs/debug-core.log"}
+{"time":"2025-03-17T14:42:37.755062568+05:30","level":"INFO","msg":"created new stream","id":"vierpi2s"}
+{"time":"2025-03-17T14:42:37.755111898+05:30","level":"INFO","msg":"stream: started","id":"vierpi2s"}
+{"time":"2025-03-17T14:42:37.755177087+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vierpi2s"}
+{"time":"2025-03-17T14:42:37.755210257+05:30","level":"INFO","msg":"handler: started","stream_id":"vierpi2s"}
+{"time":"2025-03-17T14:42:37.755190467+05:30","level":"INFO","msg":"sender: started","stream_id":"vierpi2s"}
+{"time":"2025-03-17T14:42:38.099513604+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T14:43:59.7826788+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T14:43:59.783389073+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T14:44:00.785301493+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vierpi2s-LossComparison_table","runtime_seconds":1.346636273},{"desc":"uploading artifact run-vierpi2s-confusion_matrix_table","runtime_seconds":1.005930372}],"total_operations":2}}
+{"time":"2025-03-17T14:44:03.650494495+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T14:44:03.977319691+05:30","level":"INFO","msg":"stream: closing","id":"vierpi2s"}
+{"time":"2025-03-17T14:44:03.977336101+05:30","level":"INFO","msg":"handler: closed","stream_id":"vierpi2s"}
+{"time":"2025-03-17T14:44:03.97735661+05:30","level":"INFO","msg":"sender: closed","stream_id":"vierpi2s"}
+{"time":"2025-03-17T14:44:03.977352141+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vierpi2s"}
+{"time":"2025-03-17T14:44:03.97743798+05:30","level":"INFO","msg":"stream: closed","id":"vierpi2s"}

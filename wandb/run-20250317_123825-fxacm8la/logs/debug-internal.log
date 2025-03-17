@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:38:25.689337234+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_123825-fxacm8la/logs/debug-core.log"}
+{"time":"2025-03-17T12:38:25.91120267+05:30","level":"INFO","msg":"created new stream","id":"fxacm8la"}
+{"time":"2025-03-17T12:38:25.911285261+05:30","level":"INFO","msg":"stream: started","id":"fxacm8la"}
+{"time":"2025-03-17T12:38:25.911343192+05:30","level":"INFO","msg":"handler: started","stream_id":"fxacm8la"}
+{"time":"2025-03-17T12:38:25.911505024+05:30","level":"INFO","msg":"sender: started","stream_id":"fxacm8la"}
+{"time":"2025-03-17T12:38:25.911563185+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fxacm8la"}
+{"time":"2025-03-17T12:38:26.223584506+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:38:52.585371642+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:38:52.586144692+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:38:53.587288639+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fxacm8la-LossComparison_table","runtime_seconds":3.810595245},{"desc":"uploading artifact run-fxacm8la-LossComparison_table","runtime_seconds":1.554622602},{"desc":"uploading artifact run-fxacm8la-confusion_matrix_table","runtime_seconds":1.018060506},{"desc":"uploading config.yaml","runtime_seconds":0.400293977,"progress":"3.5KB/3.5KB"}],"total_operations":4}}
+{"time":"2025-03-17T12:38:56.368336883+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:38:56.67488768+05:30","level":"INFO","msg":"stream: closing","id":"fxacm8la"}
+{"time":"2025-03-17T12:38:56.674910611+05:30","level":"INFO","msg":"handler: closed","stream_id":"fxacm8la"}
+{"time":"2025-03-17T12:38:56.674944181+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fxacm8la"}
+{"time":"2025-03-17T12:38:56.674998712+05:30","level":"INFO","msg":"sender: closed","stream_id":"fxacm8la"}
+{"time":"2025-03-17T12:38:56.675013982+05:30","level":"INFO","msg":"stream: closed","id":"fxacm8la"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-17T11:40:17.547907656+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_114017-trmbuw6k/logs/debug-core.log"}
+{"time":"2025-03-17T11:40:17.765546314+05:30","level":"INFO","msg":"created new stream","id":"trmbuw6k"}
+{"time":"2025-03-17T11:40:17.765593344+05:30","level":"INFO","msg":"stream: started","id":"trmbuw6k"}
+{"time":"2025-03-17T11:40:17.765656853+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"trmbuw6k"}
+{"time":"2025-03-17T11:40:17.765683463+05:30","level":"INFO","msg":"handler: started","stream_id":"trmbuw6k"}
+{"time":"2025-03-17T11:40:17.765668213+05:30","level":"INFO","msg":"sender: started","stream_id":"trmbuw6k"}
+{"time":"2025-03-17T11:40:18.063037667+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T11:41:13.657169853+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T11:41:13.658109262+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T11:41:14.659962303+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-trmbuw6k-LossComparison_table","runtime_seconds":1.512143035,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.292690508,"progress":"2.1KB/2.1KB"}]},{"desc":"uploading artifact run-trmbuw6k-confusion_matrix_table","runtime_seconds":1.006411958}],"total_operations":2}}
+{"time":"2025-03-17T11:41:16.967318074+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T11:41:17.337008797+05:30","level":"INFO","msg":"stream: closing","id":"trmbuw6k"}
+{"time":"2025-03-17T11:41:17.337047467+05:30","level":"INFO","msg":"handler: closed","stream_id":"trmbuw6k"}
+{"time":"2025-03-17T11:41:17.337077926+05:30","level":"INFO","msg":"sender: closed","stream_id":"trmbuw6k"}
+{"time":"2025-03-17T11:41:17.337067747+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"trmbuw6k"}
+{"time":"2025-03-17T11:41:17.337196585+05:30","level":"INFO","msg":"stream: closed","id":"trmbuw6k"}

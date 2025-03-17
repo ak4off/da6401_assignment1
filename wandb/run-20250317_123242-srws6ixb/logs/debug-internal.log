@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:32:42.670488271+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_123242-srws6ixb/logs/debug-core.log"}
+{"time":"2025-03-17T12:32:42.886940947+05:30","level":"INFO","msg":"created new stream","id":"srws6ixb"}
+{"time":"2025-03-17T12:32:42.886966597+05:30","level":"INFO","msg":"stream: started","id":"srws6ixb"}
+{"time":"2025-03-17T12:32:42.886995166+05:30","level":"INFO","msg":"sender: started","stream_id":"srws6ixb"}
+{"time":"2025-03-17T12:32:42.887010056+05:30","level":"INFO","msg":"handler: started","stream_id":"srws6ixb"}
+{"time":"2025-03-17T12:32:42.886997336+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"srws6ixb"}
+{"time":"2025-03-17T12:32:43.187669438+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:33:12.046521201+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:33:12.04734411+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:33:13.048390261+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-srws6ixb-LossComparison_table","runtime_seconds":8.171754842},{"desc":"uploading artifact run-srws6ixb-LossComparison_table","runtime_seconds":6.493137743},{"desc":"uploading artifact run-srws6ixb-LossComparison_table","runtime_seconds":4.821840928},{"desc":"uploading artifact run-srws6ixb-LossComparison_table","runtime_seconds":3.233750992},{"desc":"uploading artifact run-srws6ixb-LossComparison_table","runtime_seconds":1.520651754},{"desc":"uploading artifact run-srws6ixb-confusion_matrix_table","runtime_seconds":1.008670966},{"desc":"uploading config.yaml","runtime_seconds":0.383713745,"progress":"3.5KB/3.5KB"}],"total_operations":7}}
+{"time":"2025-03-17T12:33:24.788914601+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:33:25.067081556+05:30","level":"INFO","msg":"stream: closing","id":"srws6ixb"}
+{"time":"2025-03-17T12:33:25.067094876+05:30","level":"INFO","msg":"handler: closed","stream_id":"srws6ixb"}
+{"time":"2025-03-17T12:33:25.067111625+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"srws6ixb"}
+{"time":"2025-03-17T12:33:25.067177145+05:30","level":"INFO","msg":"sender: closed","stream_id":"srws6ixb"}
+{"time":"2025-03-17T12:33:25.067191164+05:30","level":"INFO","msg":"stream: closed","id":"srws6ixb"}

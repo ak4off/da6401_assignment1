@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:48:39.933090765+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_134839-fvcr4duq/logs/debug-core.log"}
+{"time":"2025-03-17T13:48:40.144740354+05:30","level":"INFO","msg":"created new stream","id":"fvcr4duq"}
+{"time":"2025-03-17T13:48:40.144765173+05:30","level":"INFO","msg":"stream: started","id":"fvcr4duq"}
+{"time":"2025-03-17T13:48:40.144826093+05:30","level":"INFO","msg":"sender: started","stream_id":"fvcr4duq"}
+{"time":"2025-03-17T13:48:40.144818073+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fvcr4duq"}
+{"time":"2025-03-17T13:48:40.144874322+05:30","level":"INFO","msg":"handler: started","stream_id":"fvcr4duq"}
+{"time":"2025-03-17T13:48:40.484646822+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:50:30.139226434+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:50:30.139945188+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:50:31.141196079+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fvcr4duq-LossComparison_table","runtime_seconds":1.622447294},{"desc":"uploading artifact run-fvcr4duq-confusion_matrix_table","runtime_seconds":1.005675841}],"total_operations":2}}
+{"time":"2025-03-17T13:50:33.34127254+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:50:33.653927222+05:30","level":"INFO","msg":"stream: closing","id":"fvcr4duq"}
+{"time":"2025-03-17T13:50:33.653944901+05:30","level":"INFO","msg":"handler: closed","stream_id":"fvcr4duq"}
+{"time":"2025-03-17T13:50:33.653958191+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fvcr4duq"}
+{"time":"2025-03-17T13:50:33.654030581+05:30","level":"INFO","msg":"sender: closed","stream_id":"fvcr4duq"}
+{"time":"2025-03-17T13:50:33.6540426+05:30","level":"INFO","msg":"stream: closed","id":"fvcr4duq"}

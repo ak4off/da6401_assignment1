@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:54:54.947299968+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_125454-qgeuqp4y/logs/debug-core.log"}
+{"time":"2025-03-17T12:54:55.167751346+05:30","level":"INFO","msg":"created new stream","id":"qgeuqp4y"}
+{"time":"2025-03-17T12:54:55.167774865+05:30","level":"INFO","msg":"stream: started","id":"qgeuqp4y"}
+{"time":"2025-03-17T12:54:55.167793285+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qgeuqp4y"}
+{"time":"2025-03-17T12:54:55.167824345+05:30","level":"INFO","msg":"sender: started","stream_id":"qgeuqp4y"}
+{"time":"2025-03-17T12:54:55.167846525+05:30","level":"INFO","msg":"handler: started","stream_id":"qgeuqp4y"}
+{"time":"2025-03-17T12:54:55.459774942+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:56:39.303771251+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:56:39.304473346+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:56:40.306522854+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-qgeuqp4y-LossComparison_table","runtime_seconds":1.790783858},{"desc":"uploading artifact run-qgeuqp4y-confusion_matrix_table","runtime_seconds":1.006912757},{"desc":"uploading output.log","runtime_seconds":0.688902242},{"desc":"uploading wandb-summary.json","runtime_seconds":0.688894572,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.398883259,"progress":"3.5KB/3.5KB"}],"total_operations":5}}
+{"time":"2025-03-17T12:56:42.327472794+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:56:42.662497205+05:30","level":"INFO","msg":"stream: closing","id":"qgeuqp4y"}
+{"time":"2025-03-17T12:56:42.662523255+05:30","level":"INFO","msg":"handler: closed","stream_id":"qgeuqp4y"}
+{"time":"2025-03-17T12:56:42.662552275+05:30","level":"INFO","msg":"sender: closed","stream_id":"qgeuqp4y"}
+{"time":"2025-03-17T12:56:42.662554795+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qgeuqp4y"}
+{"time":"2025-03-17T12:56:42.662677614+05:30","level":"INFO","msg":"stream: closed","id":"qgeuqp4y"}

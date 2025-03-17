@@ -1,0 +1,16 @@
+{"time":"2025-03-17T12:50:24.706803693+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_125024-xxt3lxvi/logs/debug-core.log"}
+{"time":"2025-03-17T12:50:24.931142361+05:30","level":"INFO","msg":"created new stream","id":"xxt3lxvi"}
+{"time":"2025-03-17T12:50:24.93134599+05:30","level":"INFO","msg":"stream: started","id":"xxt3lxvi"}
+{"time":"2025-03-17T12:50:24.93138061+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"xxt3lxvi"}
+{"time":"2025-03-17T12:50:24.9314231+05:30","level":"INFO","msg":"sender: started","stream_id":"xxt3lxvi"}
+{"time":"2025-03-17T12:50:24.93141111+05:30","level":"INFO","msg":"handler: started","stream_id":"xxt3lxvi"}
+{"time":"2025-03-17T12:50:25.248399838+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T12:50:37.34207443+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T12:50:37.342914997+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T12:50:38.343312425+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-xxt3lxvi-LossComparison_table","runtime_seconds":3.526450165},{"desc":"uploading artifact run-xxt3lxvi-LossComparison_table","runtime_seconds":1.4588901939999999},{"desc":"uploading artifact run-xxt3lxvi-confusion_matrix_table","runtime_seconds":1.005868009},{"desc":"uploading config.yaml","runtime_seconds":0.369522629,"progress":"3.5KB/3.5KB"}],"total_operations":4}}
+{"time":"2025-03-17T12:50:42.393928692+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T12:50:42.686466324+05:30","level":"INFO","msg":"stream: closing","id":"xxt3lxvi"}
+{"time":"2025-03-17T12:50:42.686490484+05:30","level":"INFO","msg":"handler: closed","stream_id":"xxt3lxvi"}
+{"time":"2025-03-17T12:50:42.686503514+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"xxt3lxvi"}
+{"time":"2025-03-17T12:50:42.686610124+05:30","level":"INFO","msg":"sender: closed","stream_id":"xxt3lxvi"}
+{"time":"2025-03-17T12:50:42.686620184+05:30","level":"INFO","msg":"stream: closed","id":"xxt3lxvi"}

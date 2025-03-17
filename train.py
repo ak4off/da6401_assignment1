@@ -3,16 +3,15 @@ import wandb
 import argparse
 import numpy as np
 from keras.datasets import fashion_mnist, mnist
-from the_data import one_hot_encode
 from neural_network import NeuralNetwork
 from Q1_downloadnplot import download_and_plot
-# from sklearn.metrics import confusion_matrix
 
 def wandb_sweep(args, train_img, train_labe, val_img, val_labe):
 
     download_and_plot() # download and plot the images Question 1
     
-    with wandb.init() as run:
+    # with wandb.init() as run:
+    with wandb.init(project=args.wandb_project) as run:
         config = wandb.config
         epochs = config.epochs
         num_layers = config.num_layers
@@ -53,24 +52,7 @@ def wandb_sweep(args, train_img, train_labe, val_img, val_labe):
 
 
 def main(args):
-    # sweep_config = {
-    #     'method': 'bayes',  
-    #     'name': 'sweep_new',
-    #     'metric': {'name': 'avg_valid_acc', 'goal': 'maximize'},
-    #     'parameters': {
-    #             'epochs': {'values': [100]},
-    #             'weight_init': {'values': ['xavier']},
-    #             'learning_rate':{'values': [ 0.01]},
-    #             'num_layers':{'values': [ 3]},
-    #             'hidden_size':{'values': [ 128]},
-    #             'batch_size':{'values': [ 32]}, 
-    #             'optimizer': {'values': ['sgd']},
-    #             'activation':{'values': [ 'sigmoid']},  
-    #             'loss':{'values': [ 'cross_entropy']},
-    #             'weight_decay': {'values': [0]},
-    #     }
 
-    # }
     sweep_config = {
         'method': 'bayes',  
         'name': 'sweep_new',
@@ -122,8 +104,7 @@ def main(args):
     if args.use_wandb.lower() == "true":
         wandb.login()
         sweep_id = wandb.sweep(sweep=sweep_config, project=args.wandb_project)
-        # wandb.agent(sweep_id, function=lambda: wandb_sweep(args, train_img, train_labe, val_img, val_labe), count=10)
-        wandb.agent(sweep_id, function=lambda: wandb_sweep(args, train_img, train_labe, val_img, val_labe), count=1)
+        wandb.agent(sweep_id, function=lambda: wandb_sweep(args, train_img, train_labe, val_img, val_labe), count=50)
         wandb.finish()
         return  # If sweep is enabled, we do not train separately below
 
@@ -148,20 +129,6 @@ def main(args):
     if args.use_wandb.lower() == "true":
         wandb.log({"test_lossT": test_loss, "test_accuracyT": test_accuracy})
 
-    # Generate predictions for confusion matrix
-    _, _, y_pred = nn.test(test_img, test_labe) 
-    #cm = confusion_matrix(test_labe, y_pred)
-
-
-    # Log confusion matrix to WandB
-    # if args.use_wandb.lower() == "true":
-
-    #     # wandb.sklearn.plot_confusion_matrix(test_labe, y_pred, labels=the_labels)
-    #     print("logging confusion matrix from train.py")
-    #     wandb.log({"confusion_matrix": wandb.plot.confusion_matrix(
-    #        probs=None, y_true=test_labe, preds=y_pred, class_names=the_labels
-    #     )})
-    #     wandb.finish()
 
 
 if __name__ == "__main__":

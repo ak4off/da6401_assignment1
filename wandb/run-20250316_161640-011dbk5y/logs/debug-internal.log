@@ -1,0 +1,16 @@
+{"time":"2025-03-16T16:16:40.671946814+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_161640-011dbk5y/logs/debug-core.log"}
+{"time":"2025-03-16T16:16:40.893999474+05:30","level":"INFO","msg":"created new stream","id":"011dbk5y"}
+{"time":"2025-03-16T16:16:40.894188404+05:30","level":"INFO","msg":"stream: started","id":"011dbk5y"}
+{"time":"2025-03-16T16:16:40.894251634+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"011dbk5y"}
+{"time":"2025-03-16T16:16:40.894265334+05:30","level":"INFO","msg":"handler: started","stream_id":"011dbk5y"}
+{"time":"2025-03-16T16:16:40.894298984+05:30","level":"INFO","msg":"sender: started","stream_id":"011dbk5y"}
+{"time":"2025-03-16T16:16:41.199065753+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T16:17:08.871215616+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T16:17:08.871995255+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T16:17:09.873870609+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-011dbk5y-LossComparison_table","runtime_seconds":5.353315426},{"desc":"uploading artifact run-011dbk5y-LossComparison_table","runtime_seconds":3.348405373},{"desc":"uploading artifact run-011dbk5y-LossComparison_table","runtime_seconds":1.339784265},{"desc":"uploading media/table/Loss Comparison_table_20_f5dd5521c66b4b62b396.table.json","runtime_seconds":1.023651315,"progress":"1.7KB/1.7KB"},{"desc":"uploading artifact run-011dbk5y-confusion_matrix_table","runtime_seconds":1.007448866},{"desc":"uploading wandb-summary.json","runtime_seconds":0.687921402,"progress":"1.8KB/1.8KB"},{"desc":"uploading media/table/confusion_matrix_table_22_0bb43963043e8cde4356.table.json","runtime_seconds":0.687909642,"progress":"2.8KB/2.8KB"},{"desc":"uploading output.log","runtime_seconds":0.687904682,"progress":"1.1KB/1.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.389591802,"progress":"3.5KB/3.5KB"}],"total_operations":9}}
+{"time":"2025-03-16T16:17:18.360057335+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T16:17:18.64798128+05:30","level":"INFO","msg":"stream: closing","id":"011dbk5y"}
+{"time":"2025-03-16T16:17:18.64800984+05:30","level":"INFO","msg":"handler: closed","stream_id":"011dbk5y"}
+{"time":"2025-03-16T16:17:18.64803317+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"011dbk5y"}
+{"time":"2025-03-16T16:17:18.64803806+05:30","level":"INFO","msg":"sender: closed","stream_id":"011dbk5y"}
+{"time":"2025-03-16T16:17:18.64814653+05:30","level":"INFO","msg":"stream: closed","id":"011dbk5y"}

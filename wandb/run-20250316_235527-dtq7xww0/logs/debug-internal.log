@@ -1,0 +1,16 @@
+{"time":"2025-03-16T23:55:27.446392204+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_235527-dtq7xww0/logs/debug-core.log"}
+{"time":"2025-03-16T23:55:27.65925536+05:30","level":"INFO","msg":"created new stream","id":"dtq7xww0"}
+{"time":"2025-03-16T23:55:27.65928799+05:30","level":"INFO","msg":"stream: started","id":"dtq7xww0"}
+{"time":"2025-03-16T23:55:27.65930131+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dtq7xww0"}
+{"time":"2025-03-16T23:55:27.65931125+05:30","level":"INFO","msg":"handler: started","stream_id":"dtq7xww0"}
+{"time":"2025-03-16T23:55:27.65932831+05:30","level":"INFO","msg":"sender: started","stream_id":"dtq7xww0"}
+{"time":"2025-03-16T23:55:27.966411435+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T00:06:44.042699401+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T00:06:44.04349148+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T00:06:45.045521114+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-dtq7xww0-LossComparison_table","runtime_seconds":1.5030770310000001,"subtasks":[{"desc":"Loss Comparison_table.table.json","runtime_seconds":0.286279891,"progress":"16.8KB/16.8KB"}]},{"desc":"uploading artifact run-dtq7xww0-confusion_matrix_table","runtime_seconds":1.006364385},{"desc":"uploading media/table/confusion_matrix_table_202_869ee30d6b515840886f.table.json","runtime_seconds":0.696848069,"progress":"2.7KB/2.7KB"},{"desc":"uploading output.log","runtime_seconds":0.696830849},{"desc":"uploading wandb-summary.json","runtime_seconds":0.696823839,"progress":"1.8KB/1.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.401919925,"progress":"3.5KB/3.5KB"}],"total_operations":6}}
+{"time":"2025-03-17T00:06:47.429416378+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T00:06:47.748376456+05:30","level":"INFO","msg":"stream: closing","id":"dtq7xww0"}
+{"time":"2025-03-17T00:06:47.748396656+05:30","level":"INFO","msg":"handler: closed","stream_id":"dtq7xww0"}
+{"time":"2025-03-17T00:06:47.748408107+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dtq7xww0"}
+{"time":"2025-03-17T00:06:47.748436788+05:30","level":"INFO","msg":"sender: closed","stream_id":"dtq7xww0"}
+{"time":"2025-03-17T00:06:47.748554372+05:30","level":"INFO","msg":"stream: closed","id":"dtq7xww0"}

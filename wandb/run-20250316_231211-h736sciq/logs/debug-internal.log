@@ -1,0 +1,16 @@
+{"time":"2025-03-16T23:12:11.689455221+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250316_231211-h736sciq/logs/debug-core.log"}
+{"time":"2025-03-16T23:12:11.907695742+05:30","level":"INFO","msg":"created new stream","id":"h736sciq"}
+{"time":"2025-03-16T23:12:11.907744102+05:30","level":"INFO","msg":"stream: started","id":"h736sciq"}
+{"time":"2025-03-16T23:12:11.907758691+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"h736sciq"}
+{"time":"2025-03-16T23:12:11.907784621+05:30","level":"INFO","msg":"sender: started","stream_id":"h736sciq"}
+{"time":"2025-03-16T23:12:11.907847131+05:30","level":"INFO","msg":"handler: started","stream_id":"h736sciq"}
+{"time":"2025-03-16T23:12:12.209262859+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T23:12:26.026971093+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T23:12:26.028466583+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T23:12:27.028758772+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-h736sciq-LossComparison_table","runtime_seconds":1.3699538580000001},{"desc":"uploading artifact run-h736sciq-confusion_matrix_table","runtime_seconds":1.006136868},{"desc":"uploading config.yaml","runtime_seconds":0.401689073,"progress":"3.5KB/3.5KB"}],"total_operations":3}}
+{"time":"2025-03-16T23:12:29.822448775+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T23:12:30.099770149+05:30","level":"INFO","msg":"stream: closing","id":"h736sciq"}
+{"time":"2025-03-16T23:12:30.099810409+05:30","level":"INFO","msg":"handler: closed","stream_id":"h736sciq"}
+{"time":"2025-03-16T23:12:30.099856379+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"h736sciq"}
+{"time":"2025-03-16T23:12:30.099870678+05:30","level":"INFO","msg":"sender: closed","stream_id":"h736sciq"}
+{"time":"2025-03-16T23:12:30.100103707+05:30","level":"INFO","msg":"stream: closed","id":"h736sciq"}

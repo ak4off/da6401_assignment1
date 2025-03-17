@@ -1,0 +1,19 @@
+Epoch [1/5]
+    Train Loss: 2.3026, Train Accuracy: 0.1023
+    Val Loss: 1.1963, Val Accuracy: 0.0893
+Epoch [2/5]
+    Train Loss: 2.3026, Train Accuracy: 0.1007
+    Val Loss: 1.1963, Val Accuracy: 0.0692
+Epoch [3/5]
+    Train Loss: 2.3026, Train Accuracy: 0.0975
+    Val Loss: 1.1963, Val Accuracy: 0.0920
+Epoch [4/5]
+    Train Loss: 2.3026, Train Accuracy: 0.0975
+    Val Loss: 1.1963, Val Accuracy: 0.0717
+Epoch [5/5]
+    Train Loss: 2.3026, Train Accuracy: 0.0954
+    Val Loss: 1.1963, Val Accuracy: 0.0947
+
+ Running Test Evaluation...
+Test Accuracy: 0.0947, Test Loss: 0.0900
+logging confusion matrix from test set

@@ -1,0 +1,16 @@
+{"time":"2025-03-17T13:45:21.653901777+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/speech/akshaya/zDA6401/for_confusion/wandb/run-20250317_134521-uamu2sxb/logs/debug-core.log"}
+{"time":"2025-03-17T13:45:21.872970813+05:30","level":"INFO","msg":"created new stream","id":"uamu2sxb"}
+{"time":"2025-03-17T13:45:21.873007063+05:30","level":"INFO","msg":"stream: started","id":"uamu2sxb"}
+{"time":"2025-03-17T13:45:21.873067332+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"uamu2sxb"}
+{"time":"2025-03-17T13:45:21.873131561+05:30","level":"INFO","msg":"sender: started","stream_id":"uamu2sxb"}
+{"time":"2025-03-17T13:45:21.87322399+05:30","level":"INFO","msg":"handler: started","stream_id":"uamu2sxb"}
+{"time":"2025-03-17T13:45:22.231741071+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T13:45:22.555244739+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T13:45:22.555738173+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T13:45:23.520271976+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-17T13:45:24.175736864+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T13:45:24.50253378+05:30","level":"INFO","msg":"stream: closing","id":"uamu2sxb"}
+{"time":"2025-03-17T13:45:24.50255957+05:30","level":"INFO","msg":"handler: closed","stream_id":"uamu2sxb"}
+{"time":"2025-03-17T13:45:24.502571259+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"uamu2sxb"}
+{"time":"2025-03-17T13:45:24.502577839+05:30","level":"INFO","msg":"sender: closed","stream_id":"uamu2sxb"}
+{"time":"2025-03-17T13:45:24.502656928+05:30","level":"INFO","msg":"stream: closed","id":"uamu2sxb"}
