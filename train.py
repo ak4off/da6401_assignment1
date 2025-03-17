@@ -1,3 +1,4 @@
+import wandb.sklearn 
 import wandb
 import argparse
 import numpy as np
@@ -5,8 +6,8 @@ from keras.datasets import fashion_mnist, mnist
 from the_data import one_hot_encode
 from neural_network import NeuralNetwork
 from Q1_downloadnplot import download_and_plot
+# from sklearn.metrics import confusion_matrix
 
-# def wandb_sweep():
 def wandb_sweep(args, train_img, train_labe, val_img, val_labe):
 
     download_and_plot() # download and plot the images Question 1
@@ -24,7 +25,7 @@ def wandb_sweep(args, train_img, train_labe, val_img, val_labe):
         activation = config.activation
         loss = config.loss
 
-        run_name=f"ac_{activation}_hl_{num_layers}_hs_{hidden_size}_bs_{batch_size}_op_{optimizer}_ep_{epochs}"
+        run_name=f"ac_{activation}_hl_{num_layers}_hs_{hidden_size}_bs_{batch_size}_op_{optimizer}_ep_{epochs}_lr_{learning_rate}"
         wandb.run.name=run_name
         nn = NeuralNetwork(
                 use_wandb=args.use_wandb,
@@ -49,47 +50,46 @@ def wandb_sweep(args, train_img, train_labe, val_img, val_labe):
                 activation=activation,
             )
         nn.run(train_img, train_labe, val_img, val_labe)
-        # test_loss, test_accuracy = nn.evaluate(test_img, test_labe)
-        # wandb.log({"test_loss": test_loss, "test_accuracy": test_accuracy})
-        # wandb.finish()
+
 
 def main(args):
+    # sweep_config = {
+    #     'method': 'bayes',  
+    #     'name': 'sweep_new',
+    #     'metric': {'name': 'avg_valid_acc', 'goal': 'maximize'},
+    #     'parameters': {
+    #             'epochs': {'values': [100]},
+    #             'weight_init': {'values': ['xavier']},
+    #             'learning_rate':{'values': [ 0.01]},
+    #             'num_layers':{'values': [ 3]},
+    #             'hidden_size':{'values': [ 128]},
+    #             'batch_size':{'values': [ 32]}, 
+    #             'optimizer': {'values': ['sgd']},
+    #             'activation':{'values': [ 'sigmoid']},  
+    #             'loss':{'values': [ 'cross_entropy']},
+    #             'weight_decay': {'values': [0]},
+    #     }
 
+    # }
     sweep_config = {
         'method': 'bayes',  
-        'name': 'sweep_loss_comparison',
+        'name': 'sweep_new',
         'metric': {'name': 'avg_valid_acc', 'goal': 'maximize'},
         'parameters': {
-            'epochs': {'values': [5, 10,15, 100]},  
+            'epochs': {'values': [5,10,15, 100]},  
             'num_layers': {'values': [3, 4, 5]},
             'learning_rate': {'values': [1e-2, 1e-3, 1e-4]}, 
-            'hidden_size': {'values': [32, 64, 128]},
+            'hidden_size': {'values': [32, 64, 128,256]},
             'weight_decay': {'values': [0, 0.0005, 0.5]},
             'batch_size': {'values': [16, 32, 64, 128, 256]},
-            'optimizer': {'values': ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam']},
+            'optimizer': {'values': ['sgd', 'momentum', 'nag', 'rmsprop', 'adam']},   #   , 'nadam'
             'weight_init': {'values': ['xavier', 'random']}, 
             'activation': {'values': ['sigmoid', 'tanh', 'relu']},
-            'loss': {'values': ['cross_entropy', 'mean_squared_error']}  # Add squared error loss
+            'loss': {'values': ['cross_entropy']}  # , 'mean_squared_error'
         }
     }
 
-    # sweep_config = {
-    #     'method': 'bayes',  # Bayesian optimization for better hyperparameter search
-    #     'name': 'sweep cross entropy',
-    #     'metric': {'name': 'avg_valid_acc', 'goal': 'maximize'},
-    #     'parameters': {
-    #         'epochs': {'values': [5, 10, 15, 100]},  # Add 3 epochs to the list
-    #         'num_layers': {'values': [3, 4, 5]},
-    #         'learning_rate': {'values': [1e-2, 1e-3, 1e-4]},  # Include 0.01 (1e-2)
-    #         'hidden_size': {'values': [128, 32, 64, 256]},  # Ensure 128 is included
-    #         'weight_decay': {'values': [0, 0.0005, 0.005, 0.5]},
-    #         'batch_size': {'values': [16, 32, 64, 128, 256]},
-    #         'optimizer': {'values': ['sgd', 'momentum', 'nag', 'rmsprop', 'adam', 'nadam']},
-    #         'weight_init': {'values': ['xavier', 'random']},  # Ensure Xavier is included
-    #         'activation': {'values': ['sigmoid', 'tanh', 'relu']},
-    #         'loss': {'values': ['cross_entropy']}
-    #     }
-    # }
+
 
     # Load dataset
     if args.dataset == "fashion_mnist":
@@ -113,16 +113,17 @@ def main(args):
     val_img = val_img.reshape(val_img.shape[0], -1) / 255.0
     test_img = test_img.reshape(test_img.shape[0], -1) / 255.0
 
-    print("Dataset splits:")
-    print(f"Train set: {train_img.shape}, {train_labe.shape}")
-    print(f"Valid set: {val_img.shape}, {val_labe.shape}")
-    print(f"Test set: {test_img.shape}, {test_labe.shape}")
+    # print("Dataset splits:")
+    # print(f"Train set: {train_img.shape}, {train_labe.shape}")
+    # print(f"Valid set: {val_img.shape}, {val_labe.shape}")
+    # print(f"Test set: {test_img.shape}, {test_labe.shape}")
 
     # WandB setup and sweep
     if args.use_wandb.lower() == "true":
         wandb.login()
         sweep_id = wandb.sweep(sweep=sweep_config, project=args.wandb_project)
-        wandb.agent(sweep_id, function=lambda: wandb_sweep(args, train_img, train_labe, val_img, val_labe), count=10)
+        # wandb.agent(sweep_id, function=lambda: wandb_sweep(args, train_img, train_labe, val_img, val_labe), count=10)
+        wandb.agent(sweep_id, function=lambda: wandb_sweep(args, train_img, train_labe, val_img, val_labe), count=1)
         wandb.finish()
         return  # If sweep is enabled, we do not train separately below
 
@@ -140,25 +141,28 @@ def main(args):
     nn.run(train_img, train_labe, val_img, val_labe)
 
     # Evaluate on test set
-    test_loss, test_accuracy = nn.evaluate(test_img, test_labe)
-    print(f"Test Loss: {test_loss:.4f}, Test Accuracy: {test_accuracy:.2f}%")
+    cross_loss,test_loss, test_accuracy = nn.evaluate(test_img, test_labe)
+    # print(f"Test Loss: {test_loss:.4f}, Test Accuracy: {test_accuracy:.2f}%")
 
     # Log test results if using WandB
     if args.use_wandb.lower() == "true":
-        wandb.log({"test_loss": test_loss, "test_accuracy": test_accuracy})
+        wandb.log({"test_lossT": test_loss, "test_accuracyT": test_accuracy})
 
     # Generate predictions for confusion matrix
-    _, _, y_pred = nn.test(test_img, test_labe)
+    _, _, y_pred = nn.test(test_img, test_labe) 
+    #cm = confusion_matrix(test_labe, y_pred)
+
 
     # Log confusion matrix to WandB
-    if args.use_wandb.lower() == "true":
-        wandb.log({"confusion_matrix": wandb.plot.confusion_matrix(
-            probs=None, y_true=test_labe, preds=y_pred, class_names=the_labels
-        )})
-        wandb.finish()
-    # import wandb.sklearn 
+    # if args.use_wandb.lower() == "true":
 
-    # wandb.sklearn.plot_confusion_matrix(test_labe, y_pred, labels=the_labels)
+    #     # wandb.sklearn.plot_confusion_matrix(test_labe, y_pred, labels=the_labels)
+    #     print("logging confusion matrix from train.py")
+    #     wandb.log({"confusion_matrix": wandb.plot.confusion_matrix(
+    #        probs=None, y_true=test_labe, preds=y_pred, class_names=the_labels
+    #     )})
+    #     wandb.finish()
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a feedforward neural network")

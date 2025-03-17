@@ -1,31 +1,30 @@
 import numpy as np
 import argparse
+import wandb
 from the_activations import Activations
 from the_losses import Losses
 from the_optimizer import Optimizer
 from the_data import one_hot_encode
 from wandb_logger import WandbLogger
 from calcc import accuracy
-import wandb
 
 class NeuralNetwork:
     def __init__(self, **kwargs):
         self.config = argparse.Namespace(**kwargs)
         self.logger = WandbLogger(self.config.use_wandb)
+        # self.use_wandb = self.config.use_wandb 
 
         self.layers = []
         in_size = self.config.in_dim        #   input layer size
         
         # Layer initialization (hidden layers + output layer)
         for _ in range(self.config.num_layers):
-            # self.layers.append({'w': self.init_weights(in_size, self.config.hidden_size)})
             self.layers.append({
                 'w': self.init_weights(in_size, self.config.hidden_size),
                 'b': np.zeros((1, self.config.hidden_size))  # Initialize biases to zeros
             })            
             in_size = self.config.hidden_size
 
-        # self.layers.append({'w': self.init_weights(in_size, self.config.out_dim)})
         self.layers.append({
             'w': self.init_weights(in_size, self.config.out_dim),
             'b': np.zeros((1, self.config.out_dim))  # Output layer biases
@@ -36,10 +35,6 @@ class NeuralNetwork:
         self.loss_fn = Losses.get(self.config.loss)
         self.optimizer = Optimizer(self.layers, self.config)
 
-    # def init_weights(self, in_size, out_size):
-    #     if self.config.weight_init == 'Xavier':
-    #         return np.random.randn(in_size, out_size) * np.sqrt(2 / (in_size + out_size))
-    #     return np.random.randn(in_size, out_size) * 0.01
     def init_weights(self, in_size, out_size):
         if self.config.weight_init == 'Xavier':
             # xavier weight initialization (for tanh)
@@ -51,18 +46,6 @@ class NeuralNetwork:
             # random weight initialization (default)
             return np.random.randn(in_size, out_size) * 0.01
 
-    # def evaluate(self, x, y):
-    #     _, y_pred = self.forward(x)
-    #     y_one_hot = one_hot_encode(y, num_classes=10)
-
-    #     #  loss using the given loss function
-    #     loss = self.loss_fn(y_one_hot, y_pred)
-
-    #     #  accuracy
-    #     predicted_labels = np.argmax(y_pred, axis=1)
-    #     accuracy = np.sum(predicted_labels == y) / len(y)
-
-    #     return loss, accuracy
 
     def evaluate(self, x, y_true):
         # y_pred = self.forward(x)[1]  # Get predictions
@@ -80,12 +63,10 @@ class NeuralNetwork:
     def forward(self, x):
         activations = [x]       #   list of activations with the input
         for layer in self.layers[:-1]:
-            # x = self.activation_fn(x @ layer['w'])  # activation for all but o/p layer
             x = self.activation_fn(x @ layer['w'] + layer['b'])  # Add + layer['b']
 
             activations.append(x)
 
-        # logits = x @ self.layers[-1]['w']       #   o/p layer
         logits = x @ self.layers[-1]['w'] + self.layers[-1]['b']  # Add bias to final logits
 
         y_pred = Activations.softmax(logits)    
@@ -103,18 +84,6 @@ class NeuralNetwork:
                 delta = (delta @ self.layers[i]['w'].T) * self.activation_derivative(activations[i])
 
         return grads
-        # for i in reversed(range(len(self.layers))):
-        #     grads.insert(0, activations[i].T @ delta / y_tru.shape[0])
-        #     if i > 0:
-        #         delta = (delta @ self.layers[i]['w'].T) * self.activation_derivative(activations[i])
-
-        # return grads
-
-    # def train_batch(self, x, y_tru):
-    #     activations, y_pred = self.forward(x)
-    #     grads = self.backward(activations, y_tru, y_pred)
-    #     self.optimizer.update(grads)
-    #     return self.loss_fn(y_tru, y_pred), y_pred
 
     def train_batch(self, x, y_tru):
         activations, y_pred = self.forward(x)
@@ -131,6 +100,13 @@ class NeuralNetwork:
 
     #   training
     def run(self, train_img, train_labe, val_img, val_labe):
+
+        # early stopping
+        # best_val_accuracy = 0
+        # best_train_accuracy = 0
+        # early_stop_wait = 5
+        # wait_count = 0
+
         train_cross_entropy_loss = 0.0  
         train_squared_error_loss = 0.0  
 
@@ -182,10 +158,10 @@ class NeuralNetwork:
                 train_squared_error_loss += squared_error_loss
 
                 # Compute activations for backward pass
-                activations, _ = self.forward(x_batch)
-                y_batch_one_hot = one_hot_encode(y_batch, num_classes=10)
-                grads = self.backward(activations, y_batch_one_hot, y_pred)
-                self.optimizer.update(grads)
+                # activations, _ = self.forward(x_batch)      # commnting cos already computed
+                # y_batch_one_hot = one_hot_encode(y_batch, num_classes=10)
+                # grads = self.backward(activations, y_batch_one_hot, y_pred)
+                # self.optimizer.update(grads)
 
                 # Training accuracy
                 predicted_labels = np.argmax(y_pred, axis=1)
@@ -194,6 +170,7 @@ class NeuralNetwork:
 
                 train_loss += cross_entropy_loss  # Accumulate loss over batches
 
+            
             # Normalize training loss
             train_loss /= num_batches
             train_accuracy = correct_train / total_train
@@ -212,9 +189,9 @@ class NeuralNetwork:
             val_loss = (val_cross_entropy_loss + val_squared_error_loss) / 2
             val_losses.append(val_loss)
 
-            print(f"Epoch [{epoch+1}/{self.config.epochs}]")
-            print(f"    Train Loss: {train_loss:.4f}, Train Accuracy: {train_accuracy:.4f}")
-            print(f"    Val Loss: {val_loss:.4f}, Val Accuracy: {val_accuracy:.4f}")
+            # print(f"Epoch [{epoch+1}/{self.config.epochs}]")
+            # print(f"    Train Loss: {train_loss:.4f}, Train Accuracy: {train_accuracy:.4f}")
+            # print(f"    Val Loss: {val_loss:.4f}, Val Accuracy: {val_accuracy:.4f}")
 
             if self.config.use_wandb:
                 self.logger.log({
@@ -242,7 +219,24 @@ class NeuralNetwork:
                         xname="Epoch"
                     )
                 })
- 
+        
+            # if val_accuracy < best_val_accuracy or train_accuracy < best_train_accuracy:
+            #     wait_count += 1
+            #     print(f"Validation accuracy decreased. early_stop_wait counter: {wait_count}/{early_stop_wait}")
+            #     if wait_count >= early_stop_wait:
+            #         print("Early stopping triggered.")
+            #         break
+            # else:
+            #     best_val_accuracy = max(best_val_accuracy, val_accuracy)
+            #     best_train_accuracy = max(best_train_accuracy, train_accuracy)
+            #     wait_count = 0
+
+        # Run testing after training
+        if self.config.use_wandb:
+            # print("\n Running Test Evaluation...")
+            test_loss, test_accuracy, _ = self.test(val_img, val_labe)
+            # print(f"Final Test Accuracy: {test_accuracy:.4f}, Final Test Loss: {test_loss:.4f}")
+
     def test(self, X, y):
         _, y_pred = self.forward(X)
         y_pred_one_hot = Activations.softmax(y_pred)  # Ensure predictions are probabilities
@@ -255,5 +249,18 @@ class NeuralNetwork:
         predicted_labels = np.argmax(y_pred_one_hot, axis=1)
         test_accuracy = np.mean(predicted_labels == y)
 
-        return test_loss, test_accuracy, predicted_labels
+        # print(f"Test Accuracy: {test_accuracy:.4f}, Test Loss: {test_loss:.4f}")
 
+        if self.config.use_wandb:
+            wandb.log({"test_accuracy": test_accuracy, "test_loss": test_loss})
+
+        if self.config.use_wandb:
+            the_labels = ["t-shirt", "trouser", "pullover", "dress", "coat", "sandal", "shirt", "sneaker", "bag", "ankleboot"]
+            # print("logging confusion matrix from test set")
+            
+            predictio = np.argmax(y_pred, axis=1)
+            wandb.log({"confusion_matrix": wandb.plot.confusion_matrix(
+               probs=None, y_true=y, preds=predictio, class_names=the_labels
+            )})
+            wandb.finish()
+        return test_loss, test_accuracy, predicted_labels
